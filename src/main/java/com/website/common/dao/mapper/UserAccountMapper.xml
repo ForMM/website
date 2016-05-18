@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.website.common.dao.UserAccountMapper" >
+  <resultMap id="BaseResultMap" type="com.website.common.entity.UserAccount" >
+    <id column="n_user_id" property="nUserId" jdbcType="BIGINT" />
+    <result column="c_user_account" property="cUserAccount" jdbcType="VARCHAR" />
+    <result column="c_user_password" property="cUserPassword" jdbcType="VARCHAR" />
+    <result column="c_user_realname" property="cUserRealname" jdbcType="VARCHAR" />
+    <result column="c_user_portrait" property="cUserPortrait" jdbcType="VARCHAR" />
+    <result column="c_mobile_phone" property="cMobilePhone" jdbcType="VARCHAR" />
+    <result column="c_user_email" property="cUserEmail" jdbcType="VARCHAR" />
+    <result column="c_user_company" property="cUserCompany" jdbcType="VARCHAR" />
+    <result column="c_user_position" property="cUserPosition" jdbcType="VARCHAR" />
+    <result column="c_user_addr" property="cUserAddr" jdbcType="VARCHAR" />
+    <result column="n_user_role" property="nUserRole" jdbcType="INTEGER" />
+    <result column="c_user_introduce" property="cUserIntroduce" jdbcType="VARCHAR" />
+    <result column="n_iscomplete" property="nIscomplete" jdbcType="INTEGER" />
+    <result column="t_create_time" property="tCreateTime" jdbcType="TIMESTAMP" />
+    <result column="t_update_time" property="tUpdateTime" jdbcType="TIMESTAMP" />
+  </resultMap>
+  <sql id="Base_Column_List" >
+    n_user_id, c_user_account, c_user_password, c_user_realname, c_user_portrait, c_mobile_phone, 
+    c_user_email, c_user_company, c_user_position, c_user_addr, n_user_role,  c_user_introduce,
+    n_iscomplete, t_create_time, t_update_time
+  </sql>
+  <select id="findAll" resultMap="BaseResultMap" parameterType="java.util.Map">
+  	select 
+    <include refid="Base_Column_List" />
+    from t_user_account
+  </select>
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Long" >
+    select 
+    <include refid="Base_Column_List" />
+    from t_user_account
+    where n_user_id = #{nUserId,jdbcType=BIGINT}
+  </select>
+  <select id="findAccountByParam" resultMap="BaseResultMap" parameterType="java.util.Map">
+    select 
+    <include refid="Base_Column_List" />
+    from t_user_account
+    <where>
+    <if test="userAccount != null" >
+       and c_user_account=#{userAccount}
+     </if>
+     <if test="password != null" >
+       and c_user_password=#{password}
+     </if>
+    </where>
+  </select>
+    <select id="seachUserAcount" resultType="java.lang.Long" parameterType="java.util.Map">
+    select 
+    n_user_id
+    from t_user_account
+    <where>
+    <if test="role!=null">
+    and n_user_role=#{role}
+    </if>
+     <if test="keyword!=null and keyword!=''">
+    and (
+    c_user_addr like CONCAT('%','${keyword}','%' ) 
+    or c_user_realname like CONCAT('%','${keyword}','%' ) 
+    or c_user_company like CONCAT('%','${keyword}','%' ) 
+    or c_user_position like CONCAT('%','${keyword}','%' ) 
+    )
+    </if>
+    <if test="addr!=null and addr!=''">
+    and c_user_addr=#{addr}
+    </if>
+    </where>
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Long" >
+    delete from t_user_account
+    where n_user_id = #{nUserId,jdbcType=BIGINT}
+  </delete>
+  <insert id="insert" parameterType="com.website.common.entity.UserAccount" >
+    insert into t_user_account (c_user_account, c_user_password, 
+      c_user_realname, c_user_portrait, c_mobile_phone, 
+      c_user_email, c_user_company, c_user_position, 
+      c_user_addr, n_user_role, c_user_introduce,
+      n_iscomplete, t_create_time, t_update_time
+      )
+    values (#{cUserAccount,jdbcType=VARCHAR}, #{cUserPassword,jdbcType=VARCHAR}, 
+      #{cUserRealname,jdbcType=VARCHAR}, #{cUserPortrait,jdbcType=VARCHAR}, #{cMobilePhone,jdbcType=VARCHAR}, 
+      #{cUserEmail,jdbcType=VARCHAR}, #{cUserCompany,jdbcType=VARCHAR}, #{cUserPosition,jdbcType=VARCHAR}, 
+      #{cUserAddr,jdbcType=VARCHAR}, #{nUserRole,jdbcType=BIT}, #{cUserIntroduce,jdbcType=VARCHAR}, 
+      #{nIscomplete,jdbcType=BIT}, #{tCreateTime,jdbcType=TIMESTAMP}, #{tUpdateTime,jdbcType=TIMESTAMP}
+      )
+  </insert>
+  <insert id="insertSelective" parameterType="com.website.common.entity.UserAccount" useGeneratedKeys="true" keyProperty="nUserId">
+    insert into t_user_account
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="nUserId != null" >
+        n_user_id,
+      </if>
+      <if test="cUserAccount != null" >
+        c_user_account,
+      </if>
+      <if test="cUserPassword != null" >
+        c_user_password,
+      </if>
+      <if test="cUserRealname != null" >
+        c_user_realname,
+      </if>
+      <if test="cUserPortrait != null" >
+        c_user_portrait,
+      </if>
+      <if test="cMobilePhone != null" >
+        c_mobile_phone,
+      </if>
+      <if test="cUserEmail != null" >
+        c_user_email,
+      </if>
+      <if test="cUserCompany != null" >
+        c_user_company,
+      </if>
+      <if test="cUserPosition != null" >
+        c_user_position,
+      </if>
+      <if test="cUserAddr != null" >
+        c_user_addr,
+      </if>
+      <if test="nUserRole != null" >
+        n_user_role,
+      </if>
+      <if test="cUserIntroduce != null" >
+        c_user_introduce,
+      </if>
+      <if test="nIscomplete != null" >
+        n_iscomplete,
+      </if>
+      <if test="tCreateTime != null" >
+        t_create_time,
+      </if>
+      <if test="tUpdateTime != null" >
+        t_update_time,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="nUserId != null" >
+        #{nUserId,jdbcType=BIGINT},
+      </if>
+      <if test="cUserAccount != null" >
+        #{cUserAccount,jdbcType=VARCHAR},
+      </if>
+      <if test="cUserPassword != null" >
+        #{cUserPassword,jdbcType=VARCHAR},
+      </if>
+      <if test="cUserRealname != null" >
+        #{cUserRealname,jdbcType=VARCHAR},
+      </if>
+      <if test="cUserPortrait != null" >
+        #{cUserPortrait,jdbcType=VARCHAR},
+      </if>
+      <if test="cMobilePhone != null" >
+        #{cMobilePhone,jdbcType=VARCHAR},
+      </if>
+      <if test="cUserEmail != null" >
+        #{cUserEmail,jdbcType=VARCHAR},
+      </if>
+      <if test="cUserCompany != null" >
+        #{cUserCompany,jdbcType=VARCHAR},
+      </if>
+      <if test="cUserPosition != null" >
+        #{cUserPosition,jdbcType=VARCHAR},
+      </if>
+      <if test="cUserAddr != null" >
+        #{cUserAddr,jdbcType=VARCHAR},
+      </if>
+      <if test="nUserRole != null" >
+        #{nUserRole,jdbcType=BIT},
+      </if>
+      <if test="cUserIntroduce != null" >
+        #{cUserIntroduce,jdbcType=VARCHAR},
+      </if>
+      <if test="nIscomplete != null" >
+        #{nIscomplete,jdbcType=BIT},
+      </if>
+      <if test="tCreateTime != null" >
+        #{tCreateTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="tUpdateTime != null" >
+        #{tUpdateTime,jdbcType=TIMESTAMP},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByAccount" parameterType="com.website.common.entity.UserAccount" >
+    update t_user_account
+    <set >
+      <if test="cUserAccount != null" >
+        c_user_account = #{cUserAccount,jdbcType=VARCHAR},
+      </if>
+      <if test="cUserPassword != null" >
+        c_user_password = #{cUserPassword,jdbcType=VARCHAR},
+      </if>
+      <if test="cUserRealname != null" >
+        c_user_realname = #{cUserRealname,jdbcType=VARCHAR},
+      </if>
+      <if test="cUserPortrait != null" >
+        c_user_portrait = #{cUserPortrait,jdbcType=VARCHAR},
+      </if>
+      <if test="cMobilePhone != null" >
+        c_mobile_phone = #{cMobilePhone,jdbcType=VARCHAR},
+      </if>
+      <if test="cUserEmail != null" >
+        c_user_email = #{cUserEmail,jdbcType=VARCHAR},
+      </if>
+      <if test="cUserCompany != null" >
+        c_user_company = #{cUserCompany,jdbcType=VARCHAR},
+      </if>
+      <if test="cUserPosition != null" >
+        c_user_position = #{cUserPosition,jdbcType=VARCHAR},
+      </if>
+      <if test="cUserAddr != null" >
+        c_user_addr = #{cUserAddr,jdbcType=VARCHAR},
+      </if>
+      <if test="nUserRole != null" >
+        n_user_role = #{nUserRole,jdbcType=BIT},
+      </if>
+      <if test="cUserIntroduce != null" >
+        c_user_introduce = #{cUserIntroduce,jdbcType=VARCHAR},
+      </if>
+      <if test="nIscomplete != null" >
+        n_iscomplete = #{nIscomplete,jdbcType=BIT},
+      </if>
+      <if test="tCreateTime != null" >
+        t_create_time = #{tCreateTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="tUpdateTime != null" >
+        t_update_time = #{tUpdateTime,jdbcType=TIMESTAMP},
+      </if>
+    </set>
+    where  c_user_account = #{cUserAccount,jdbcType=VARCHAR}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.website.common.entity.UserAccount" >
+    update t_user_account
+    set c_user_account = #{cUserAccount,jdbcType=VARCHAR},
+      c_user_password = #{cUserPassword,jdbcType=VARCHAR},
+      c_user_realname = #{cUserRealname,jdbcType=VARCHAR},
+      c_user_portrait = #{cUserPortrait,jdbcType=VARCHAR},
+      c_mobile_phone = #{cMobilePhone,jdbcType=VARCHAR},
+      c_user_email = #{cUserEmail,jdbcType=VARCHAR},
+      c_user_company = #{cUserCompany,jdbcType=VARCHAR},
+      c_user_position = #{cUserPosition,jdbcType=VARCHAR},
+      c_user_addr = #{cUserAddr,jdbcType=VARCHAR},
+      n_user_role = #{nUserRole,jdbcType=BIT},
+      c_user_introduce = #{cUserIntroduce,jdbcType=VARCHAR},
+      n_iscomplete = #{nIscomplete,jdbcType=BIT},
+      t_create_time = #{tCreateTime,jdbcType=TIMESTAMP},
+      t_update_time = #{tUpdateTime,jdbcType=TIMESTAMP}
+    where n_user_id = #{nUserId,jdbcType=BIGINT}
+  </update>
+  
+   <select id="queryUserAcount" resultMap="BaseResultMap" parameterType="java.util.Map">
+    select 
+    <include refid="Base_Column_List" />
+    from t_user_account
+    <where>
+    <if test="role!=null">
+    and n_user_role=#{role}
+    </if>
+    <if test="username!=null and username!=''">    
+    and (
+  		c_user_realname like CONCAT('%','${username}','%' ) 
+    	or c_mobile_phone like CONCAT('%','${username}','%' ) 
+    )    
+    </if>
+    </where>
+     order by t_create_time desc
+     <if test="startRow!=null">
+    limit #{startRow},#{pageSize}
+    </if>   
+  </select>
+  <select id="queryUserAcountCount" resultType="java.lang.Integer" parameterType="java.util.Map">
+    select 
+   count(*)
+    from t_user_account
+    <where>
+    <if test="role!=null">
+    and n_user_role=#{role}
+    </if>
+     <if test="username!=null and username!=''">
+     and (
+  		c_user_realname like CONCAT('%','${username}','%' ) 
+    	or c_mobile_phone like CONCAT('%','${username}','%' ) 
+    )
+    </if>
+    </where>
+  </select>
+  
+   <select id="findUserIds"  resultType="java.lang.Long" parameterType="java.util.Map">
+    select 
+    n_user_id
+    from t_user_account
+    <where>
+    <if test="role!=null">
+    and n_user_role=#{role}
+    </if>
+     <if test="username!=null and username!=''">	   
+	  and  c_user_realname like CONCAT('%','${username}','%' ) 	  
+    </if> 
+    </where>
+  </select>
+   
+
+  
+  
+  
+</mapper>

@@ -1,0 +1,27 @@
+
+.chuangtouFooter {
+	/* position:fixed; */
+    background: #3a3835 none repeat scroll 0 0;
+    color: #cececd;
+    height: 110px;
+    width: 100%;
+    bottom: 0;
+}
+.chuangtouFooter p {
+    margin: 0;
+}
+.chuangtouFooter .container {
+    padding-top: 15px;
+    text-align: center;
+}
+.chuangtouFooter .container p.title {
+    color: #ffffff;
+    font-size: 15px;
+}
+.chuangtouFooter .container p.title i {
+   /*  color: #cececd; */
+}
+.chuangtouFooter .contactDiv {
+    margin: 10px auto;
+    overflow: hidden; 
+}
