@@ -5,8 +5,8 @@
 <head lang="en">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    <title>猫投鹰，让投资更简单</title>
-    <meta name="keywords" content="猫投鹰,创业,投资,创业梦想">
+    <title>企业名-瓷砖填缝剂</title>
+    <meta name="keywords" content="猫投鹰,瓷砖填缝剂">
     <meta name="description" content="猫投鹰专注于为以高科技为基础的新创公司提供融资活动，只要你的创业项目好，资金就在我们这里找。">
     <meta name="author" content="猫投鹰">
     <link rel="shortcut icon" type="image/x-icon" href="/maotouying_favicon.ico" media="screen" />
@@ -36,7 +36,13 @@
                 </ul>
                 <ul class="nav-link">
                     <li><a href="/webUser/toIndex">首页</a></li>                  
-                    <li><a href="/webUser/toNewProject">创建项目</a></li>                  
+                    <li><a href="/webUser/toNewProject">公司简介</a></li>    
+                    <li><a href="/webUser/toIndex">产品中心</a></li>                  
+                   	<li><a href="/webUser/toNewProject">客户宝典</a></li>     
+                    <li><a href="/webUser/toIndex">美缝案例</a></li>                  
+                    <li><a href="/webUser/toNewProject">新闻动态</a></li>   
+                    <li><a href="/webUser/toNewProject">人才招聘</a></li>      
+                    <li><a href="/webUser/toNewProject">联系我们</a></li>                      
                 </ul>
             </div>
         </div>
