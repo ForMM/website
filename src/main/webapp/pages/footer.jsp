@@ -8,11 +8,11 @@
 <body>
     <div class="chuangtouFooter">
     	<div class="container">
-    	<p class="title">猫投鹰 &nbsp;专注投资人的移动服务平台</p>
+    	<p class="title">美缝天王 &nbsp;专注室内装修</p>
         <div class="contactDiv">       
-        	<p>服务咨询：075582934262 &nbsp;&nbsp; 建议反馈：service@vtimerglobal.com</p>             
+        	<p>服务咨询：55555555555 &nbsp;&nbsp; 建议反馈：serviceaaaaa@163.com</p>             
         </div>        
-        <p>Copyright © 微时间 粤ICP备16034203号</p></div>
+        <p>Copyright © hehegou techloligy</p></div>
 	</div>  
 </body>
 </html>

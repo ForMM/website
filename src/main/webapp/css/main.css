@@ -1,221 +1,516 @@
+@charset "UTF-8";
+#fp-nav {
+    position: fixed;
+    z-index: 100;
+    margin-top: -32px;
+    top: 50%;
+    opacity: 1;
+    right: 20px
+}
+
+#fp-nav li {
+    display: block;
+    margin: 10px;
+    width: 14px;
+    height: 14px;
+    position: relative
+}
+
+#fp-nav li a {
+    display: block;
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    text-decoration: none
+}
+
+#fp-nav li .active span {
+    background: #000;
+    background: rgba(0, 0, 0, .8)
+}
+
+#fp-nav span {
+    top: 2px;
+    left: 2px;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 1;
+    width: 14px;
+    height: 14px;
+    border: 1px solid #000;
+    border: 1px solid rgba(0, 0, 0, .8)
+}
+
+
+html {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%
+}
+
+body {
+    margin: 0;
+}
+
+#header{
+    height: 67px;
+    background-color: #3D3C42;
+    overflow: hidden;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .1)
+}
+
+#header .icon-logo {
+    vertical-align: middle
+}
+
+#header a {
+    line-height: 67px;
+    height: 67px;
+    color: #717171;
+    text-align: center;
+    display: inline-block
+}
+
+#header a.logo {
+    padding: 0;
+    margin: 0;
+    float: left
+}
+
+#header a:hover {
+    background: 0 0
+}
+
+#header ul li {
+    float: left
+}
+
+#header .nav-link {
+ 
+}
+
+#header .nav-link a {
+    padding: 0 11px;
+    margin: 0 15px;
+    position: relative
+}
+
+#header .nav-link a:focus::after, #header .nav-link a:hover::after {
+    height: 3px;
+    opacity: 1;
+    -webkit-transform: translateY(0px);
+    -ms-transform: translateY(0px);
+    transform: translateY(0px)
+}
+
+#header .nav-link a:after {
+    position: absolute;
+    top: 64px;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background: #26a9e1;
+    content: '';
+    opacity: 0;
+    -webkit-transition: height .5s, opacity .5s, -webkit-transform .5s;
+    transition: height .5s, opacity .5s, transform .5s;
+    -webkit-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    transform: translateY(-10px)
+}
+
+#header .nav-link a.active {
+    border-bottom: 3px solid #26a9e1
+}
+
+#header .nav-login {
+    float: right;
+}
+#header .nav-login a {
+    border: 1px solid #26a9e1;
+    color: #26a9e1;
+    height: 34px;
+    line-height: 34px;
+}
+#header .nav-login .login {
+    background-color: #26a9e1;
+    color: #fff;
+    margin: 16.5px 10px;
+    padding: 0 24px;
+}
+#header .nav-login .login:hover {
+    background-color: rgba(38, 169, 225, 0.9);
+}
+#header .nav-login .signup {
+    margin: 16.5px 0 15.5px 10px;
+    padding: 0 23px;
+}
+#header .nav-login .signup:hover {
+    background-color: #26a9e1;
+    color: #fff;
+}
+
+#header.fixed {
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    width: 100%
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    color: inherit;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+}
+.h2, h2 {
+    font-size: 30px;
+}
+
+.icon {
+    display: inline-block
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0
+}
+
+a, a:focus, a:hover, a:visited {
+    text-decoration: none;
+    outline: 0
+}
+
+.icon-logo {
+    background-image: url(img/logo.png);
+    /*background-position: -225px -512px;*/
+    height: 52px;
+    width:181px;
+}
 
 #fullPage {
+    height: 100%;
     position: relative;
     width: 100%;
-    background-color: #3EA3FE;
-    overflow:auto;
 }
 body.index {
     height: 100%;
     width: 100%;
 }
-
-.downHref{
-	float:right;
+.fullPage-tooltip {
+    color: #fff;
+    font-family: arial,helvetica,sans-serif;
+    font-size: 14px;
+    position: absolute;
+    top: -2px;
+}
+.fullPage-tooltip.right {
+    right: 20px;
+}
+.section {
+    box-sizing: border-box
 }
 
+.section:first-child {
+    padding-top: 0 !important;
+    width: 100%;
+    height: 100%
+}
 
-.divBanner{
-	margin-top:67px;
-	height: 100%;
+.section-home {
+    background-repeat: no-repeat;
+    background-size: auto 95%;
+    background-position: center;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.section-intro {
+    height: 100%;
+}
+.section-intro .container {
+    display: table;
+    height: 100%;
+}
+.section-intro .row {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.section-intro .sub-intro {
+    color: #717171;
+    font-size: 14px;
+    line-height: 30px;
+    min-height: 170px;
+    padding: 20px 50px 30px;
+}
+.section-intro h2 {
+    font-size: 26px;
+    font-weight: 700;
+    margin-top: 60px;
+}
+
+.section-data {
+    height: 100%;
+}
+
+.section-appraise {
+    height: 100%;
+    background-color: orange;
+}
+
+.section-footer {
+    height: 100%;
+    background-color: blue;
+}
+
+.section-switch-banner .fp-section {
+    box-sizing: border-box;
+    position: relative;
+}
+.section-switch-banner .fp-slides {
+    float: left;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    transition: all 0.3s ease-out 0s;
+    width: 100%;
+    z-index: 1;
+}
+.section-switch-banner .fp-slides .fp-slidesContainer {
+    height: 100%;
+    position: relative;
+}
+.section-switch-banner .slide {
+    float: left;
+    height: 100%;
+}
+.section-switch-banner .bslide {
+    height: 100%;
+    width: 100%;
+}
+.section-switch-banner .bslide .carousel-inner {
+    height: 100%;
     overflow: hidden;
     position: relative;
 }
-
-.divBanner .bannerPhone{
-	height:100%;	
+.section-switch-banner .bslide .carousel-inner .item {
+    height: 100%;
+}
+.section-switch-banner .carousel {
+    position: relative;
+}
+.section-switch-banner .carousel-inner {
+    overflow: hidden;
+    position: relative;
     width: 100%;
-    background: rgba(0, 0, 0, 0) url("/website/css/img/bannerPhone.png") no-repeat scroll center center / 100% auto;      
-    padding-top:80%;
-    margin:100px auto;
+}
+.section-switch-banner .carousel-inner > .item {
+    display: none;
+    position: relative;
+    transition: left 0.6s ease-in-out 0s;
+    width: 100%;
+}
+@media not all, not all {
+    .section-switch-banner .carousel-inner > .item {
+        backface-visibility: hidden;
+        perspective: 1000px;
+        transition: transform 0.6s ease-in-out 0s;
+    }
+    .section-switch-banner .carousel-inner > .item.active.right, .section-switch-banner .carousel-inner > .item.next {
+        left: 0;
+        transform: translate3d(100%, 0px, 0px);
+    }
+    .section-switch-banner .carousel-inner > .item.active.left, .section-switch-banner .carousel-inner > .item.prev {
+        left: 0;
+        transform: translate3d(-100%, 0px, 0px);
+    }
+    .section-switch-banner .carousel-inner > .item.active, .section-switch-banner .carousel-inner > .item.next.left, .section-switch-banner .carousel-inner > .item.prev.right {
+        float: none;
+        left: 0;
+        transform: translate3d(0px, 0px, 0px);
+    }
+}
+.section-switch-banner .carousel-inner > .active, .section-switch-banner .carousel-inner > .next, .section-switch-banner .carousel-inner > .prev {
+    display: block;
+}
+.section-switch-banner .carousel-inner > .active {
+    left: 0;
+}
+.section-switch-banner .carousel-inner > .next, .section-switch-banner .carousel-inner > .prev {
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.section-switch-banner .carousel-inner > .next {
+    left: 100%;
+}
+.section-switch-banner .carousel-inner > .prev {
+    left: -100%;
+}
+.section-switch-banner .carousel-inner > .next.left, .section-switch-banner .carousel-inner > .prev.right {
+    left: 0;
+}
+.section-switch-banner .carousel-inner > .active.left {
+    left: -100%;
+}
+.section-switch-banner .carousel-inner > .active.right {
+    left: 100%;
+}
+.section-switch-banner .carousel-caption {
+    bottom: 20px;
+    color: #fff;
+    left: 15%;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    position: absolute;
+    right: 15%;
+    text-align: center;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+    z-index: 10;
+}
+.section-switch-banner .carousel-caption .btn {
+    text-shadow: none;
+}
+.section-switch-banner .banner-ronghe {
+    background-color: #334d6e;
+    background-image: url("img/rongzibanner2.jpg");
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+}
+.section-switch-banner .banner-ronghe .banner-rongzi-text {
+    background: rgba(0, 0, 0, 0) url("img/rongzitext.png") no-repeat scroll center center / 100% auto;
+    left: 30%;
+    margin-top: -100px;
+    padding-top: 20%;
+    position: absolute;
+    top: 40%;
+    width: 60%;
+}
+.section-switch-banner .banner-abroadcdn {
+    background-color: #334d6e;
+    background-image: url("img/abroadcdnbg.jpg");
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+}
+.section-switch-banner .banner-abroadcdn .banner-abroadcdn-text {
+    background: rgba(0, 0, 0, 0) url("img/abroadcdntext.png") no-repeat scroll 0 0;
+    height: 230px;
+    left: 50%;
+    margin-left: -186px;
+    margin-top: -100px;
+    position: absolute;
+    top: 50%;
+    width: 372px;
+}
+.section-switch-banner .banner-abroadcdn .banner-abroadcdn-text a {
+    background-color: #fff;
+    border-radius: 22px;
+    bottom: 0;
+    color: #53687a;
+    display: block;
+    font-size: 24px;
+    left: 96px;
+    line-height: 44px;
+    position: absolute;
+    text-align: center;
+    transition: transform 0.3s ease 0s;
+    width: 180px;
+}
+.section-switch-banner .banner-abroadcdn .banner-abroadcdn-text a:hover {
+    transform: scale(1.1);
 }
 
-.divBanner .bannerPhoneText {    
-    width:444px;
-    padding-top:50px;
-    margin:50px auto;	
+.section-intro, .section-product{
+    height: 100%;
 }
-.bannerPhoneText h1{
-	font-size:80px;
-	color:#FFFFFF;
+.section-intro .container, .section-product .container{
+    display: table;
+    height: 100%;
 }
-.bannerPhoneText span{
-	font-size:40px;
-	color:#FFFFFF;
+.section-intro .circle,.section-product .circle{
+    margin: 0 auto;
+    position: relative;
+}
+.icon-circle1 {
+    margin: 0 auto;
+    position: relative;
+    background-image: url("img/cangtou.png");
+    height: 197px;
+    width: 197px;
+}
+.section-intro .chuangtou .chuangtou-inner {
+    left: 0;
+    position: absolute;
+    right: 0;
+    z-index: 10;
+    text-align: center;
+}
+
+.share-sidebar {
+    border: 0 none;
+    bottom: 100px;
+    float: left;
+    font-weight: bold;
+    position: fixed;
+    right: 0;
+    text-indent: -2222px;
+    width: 48px;
+    writing-mode: vertical-rl;
+    z-index: 22;
+}
+.share-sidebar a {
+    background: #5c6373 url("img/share-sidebar-icons.png") no-repeat scroll 0 0;
+    cursor: pointer;
+    display: block;
+    float: left;
+    height: 48px;
+    overflow: hidden;
+    width: 48px;
+}
+.share-sidebar a:hover {
+    background-color: #3864a1;
+}
+.share-sidebar a#app_andriod {
+    background-position: 0 0;
+}
+.share-sidebar a#app_andriod:hover {
+    background-position: -49px 0;
+}
+
+.share-sidebar a#app_ios {
+    background-position: 0 0;
+}
+.share-sidebar a#app_ios:hover {
+    background-position: -49px 0;
+}
+.share-sidebar a#contact_phone {
+    background-position: 0 -49px;
+}
+.share-sidebar a#contact_phone:hover {
+    background-position: -49px -49px;
+}
+.share-sidebar .images img {
+    border: 0 none;
+    bottom: 200px;
+    display: none;
+    position: fixed;
+    right: 30px;
+    z-index: 100;
+}
+
+.userInfo22{
+    background-color: #26a9e1;
+    color: #fff;
+    index:100000000;
 }
 
 
-.divBanner .downloadDiv {   
-    width:100%;
-	margin:0px auto;
-}
-.divBanner .downloadDiv .hrefDiv{
-	width:100%;
-	height:160px;	   
-   	margin:10px auto;
-   	text-align:center;  
-}
-.divBanner .downloadDiv .downa {  
-    border: 1px solid #fff;
-    border-radius: 64px;
-    color: #ffffff;
-    display: block;    
-    font-size: 25px;
-    height: 70px;
-    line-height: 70px;
-    text-align: center;   
-    width: 260px;
-  	margin-top:5px;
-}
-.downHref{
-	float:left;
-	margin-left:30px;
-}
 
-.divBanner .downloadDiv .downa.iphone {
-    background: rgba(0, 0, 0, 0) url("/website/css/img/ipone.png") no-repeat scroll 20px 13px; 
-}
-.divBanner .downloadDiv .downa.iphone:hover {
-  /*   background-position: 20px -70px; */
-    border: 1px solid #000;
-    color: #000;
-}
-.divBanner .downloadDiv .downa.andriod {
-    background: rgba(0, 0, 0, 0) url("/website/css/img/andriod.png") no-repeat scroll 20px 13px;
-}
-.divBanner .downloadDiv .downa.andriod:hover {
-  /*   background-position: 20px -210px; */
-    border: 1px solid #000;
-    color: #000;
-}
-.divBanner .downloadDiv .qrCode {    
-    height: 145px;  
-    width: 145px;
-}
-
-@media only screen and (max-width: 479px) {
-   .bannerPhone{display:none;}    
- /*   #header{display:none;} */
-   .divBanner .bannerPhoneText{
-   		padding-top:10%;
-	    width: 100%;
-	    height: 100%;			 
-   }
-   .bannerPhoneText h1{
-	    margin: 10px auto;
-	    width:342px;     
-		font-size:40px;
-		color:#FFFFFF;		
-	}
-	.bannerPhoneText span{
-		display:block;
-		margin: 10px auto;
-	 	width:342px;
-		font-size:30px;
-		color:#FFFFFF;				 
-	}
-	
-   .divBanner .downloadDiv{   
-      	width: 100%;
-	    height: 100%;	   
-	  	margin: 10px auto;      
-   }
-   .divBanner .downloadDiv .qrCode {   	
-    	margin: 10px auto;
-	    height: 145px;	
-	    width: 145px;	    
-	}
-	.downHref{	   
-	 	width: 300px;  
-		text-align:center;		
-	}
-	.downHref a{
-		margin:0 auto;
-	}
-
-}
-
-@media (min-device-width : 375px) and (max-device-width : 667px) and (-webkit-min-device-pixel-ratio : 2){
-     .bannerPhone{display:none;}    
- /*   #header{display:none;} */
-   .divBanner .bannerPhoneText{
-   		padding-top:10%;
-	    width: 100%;
-	    height: 100%;			 
-   }
-   .bannerPhoneText h1{
-	    margin: 10px auto;
-	    width:342px;     
-		font-size:40px;
-		color:#FFFFFF;		
-	}
-	.bannerPhoneText span{
-		display:block;
-		margin: 10px auto;
-	 	width:342px;
-		font-size:30px;
-		color:#FFFFFF;				 
-	}
-	
-   .divBanner .downloadDiv{   
-      	width: 100%;
-	    height: 100%;	   
-	  	margin: 10px auto;      
-   }
-   .divBanner .downloadDiv .qrCode {   	
-    	margin: 10px auto;
-	    height: 145px;	
-	    width: 145px;	    
-	}
-	.downHref{	   
-	 	width: 300px;  
-		text-align:center;		
-	}
-	.downHref a{
-		margin:0 auto;
-	}
-}
-
-
-@media (min-device-width : 414px) and (max-device-width : 736px) and (-webkit-min-device-pixel-ratio : 3){
-    .bannerPhone{display:none;}    
- /*   #header{display:none;} */
-   .divBanner .bannerPhoneText{
-   		padding-top:10%;
-	    width: 100%;
-	    height: 100%;			 
-   }
-   .bannerPhoneText h1{
-	    margin: 10px auto;
-	    width:342px;     
-		font-size:40px;
-		color:#FFFFFF;		
-	}
-	.bannerPhoneText span{
-		display:block;
-		margin: 10px auto;
-	 	width:342px;
-		font-size:30px;
-		color:#FFFFFF;				 
-	}
-	
-   .divBanner .downloadDiv{   
-      	width: 100%;
-	    height: 100%;	   
-	  	margin: 10px auto;      
-   }
-   .divBanner .downloadDiv .qrCode {   	
-    	margin: 10px auto;
-	    height: 145px;	
-	    width: 145px;	    
-	}
-	.downHref{	   
-		float:none;
-	 	width: 300px;  
-		margin:0 auto;
-	}
-	.downHref a{
-		margin:0 auto;
-	}
-}
 
