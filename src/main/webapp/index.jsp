@@ -5,11 +5,11 @@
 <head lang="en">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    <title>企业名-瓷砖填缝剂</title>
-    <meta name="keywords" content="猫投鹰,瓷砖填缝剂">
-    <meta name="description" content="猫投鹰专注于为以高科技为基础的新创公司提供融资活动，只要你的创业项目好，资金就在我们这里找。">
-    <meta name="author" content="猫投鹰">
-    <link rel="shortcut icon" type="image/x-icon" href="/maotouying_favicon.ico" media="screen" />
+    <title>也娜美缝剂-瓷砖填缝剂</title>
+    <meta name="keywords" content="也娜美缝剂,瓷砖填缝剂">
+    <meta name="description" content="也娜美缝剂专注于在终极客户端以完美的施工，最大限度的发挥产品的特点">
+    <meta name="author" content="也娜美缝剂">
+    <link rel="shortcut icon" type="image/x-icon" href="/aaa.ico" media="screen" />
     <link href="scripts/common/bootstrap/css/bootstrap.min.css?v={JS_CSS_V}" rel="stylesheet" type="text/css" />
     <link href="scripts/common/bootstrap/css/bootstrap-theme.css?v={JS_CSS_V}" rel="stylesheet" type="text/css" />
     <link href="css/main.css" rel="stylesheet" type="text/css"/>    
@@ -27,8 +27,8 @@
     <div class="fixed js-header"  id="header">
         <div class="header">
             <div class="container">
-                <a href="/webUser/toIndex" class="logo"  title="猫投鹰">
-                    <span class="icon icon-logo"></span>
+                <a href="/webUser/toIndex" class="logo"  title="也娜美缝剂">
+                    <span class="icon icon-logo">也娜美缝剂</span>
                 </a>               
                 <ul class="nav-link">
                     <li><a href="/webUser/toIndex">首页</a></li>                  
@@ -56,15 +56,21 @@
                <ol class="carousel-indicators">
                    <li data-target="#indexCarousel" data-slide-to="0" class="active"></li>
                    <li data-target="#indexCarousel" data-slide-to="1"></li>
+                   <li data-target="#indexCarousel" data-slide-to="2"></li>
+                   <li data-target="#indexCarousel" data-slide-to="3"></li>
                </ol>
                <div class="carousel-inner" role="listbox">
-                   <div class="item active banner-ronghe">
-                       <div class="banner-rongzi-text"></div>
+                   <div class="item active banner-one">    
+                   		<img alt="" src="css/img/banner-one.jpg">                   
                    </div>
-                   <div class="item banner-abroadcdn">
-                       <div class="banner-abroadcdn-text">
-                           <a href="/DewoWeb" target="_blank">点击查看</a>
-                       </div>
+                   <div class="item banner-two"> 
+						<img alt="" src="css/img/banner-two.jpg">                                   
+                   </div>
+                   <div class="item banner-three"> 
+                   		<img alt="" src="css/img/banner-three.jpg">                                    
+                   </div>
+                   <div class="item banner-four">    
+                   		<img alt="" src="css/img/banner-four.jpg">                                 
                    </div>
                </div>
                <a class="left carousel-control" href="#indexCarousel" role="button" data-slide="prev">
@@ -81,7 +87,18 @@
         <div class="section section-intro">
             <div class="container">
                 <div class="row">
-                    <div class="text-center col-xs-4 col-md-4 chuantou">
+                	<div class="text-center col-xs-3 col-md-3 chuantou">
+                        <div class="circle">
+                            <div class="chuangtou-inner">
+                                <div class="icon-circle1"></div>
+                            </div>
+                        </div>
+                        <div class="chuangtou-content">
+                            <h2>加入我们</h2>
+                            <p class="sub-intro">(1)不需要店面 ,节省了店面和装修的投入，只需要一些样品；(2)不需要过多的人力成本；(3)先期可以先拿样品试销,看市场情况,再决定是否代理；</p>                          
+                        </div>
+                    </div>
+                    <div class="text-center col-xs-3 col-md-3 chuantou">
                         <div class="circle">
                             <div class="chuangtou-inner">
                                 <div class="icon-circle1"></div>
@@ -92,7 +109,7 @@
                             <p class="sub-intro">获得中国绿色谎报推广产品荣誉证书，真正做到防水、防污、绿色、环保！；靓晶晶美缝剂色彩达50余种，克根据您的装修风格、色调整体配色！靓晶晶美缝剂荣获“中国建筑装饰协会”指定使用产品！</p>                          
                         </div>
                     </div>
-                    <div class="text-center col-xs-4 col-md-4 service">
+                    <div class="text-center col-xs-3 col-md-3 service">
                         <div class="circle">
                             <div class="service-inner">
                                 <div class="icon-circle1"></div>
@@ -103,7 +120,7 @@
                             <p class="sub-intro">长期以来与全国十大瓷砖品牌建立良好的合作关系；众多房地产商、建筑公司、装修公司、展厅公司是我公司核心企业；因为我们置信，所以选择我们，我们将会共同走向互利互赢。</p>                           
                         </div>
                     </div>
-                    <div class="text-center col-xs-4 col-md-4 project">
+                    <div class="text-center col-xs-3 col-md-3 project">
                         <div class="circle">
                             <div class="project-inner">
                                 <div class="icon-circle1"></div>
@@ -120,23 +137,71 @@
 
         <div class="section section-product">
             <div class="container">
-                <div class="row">
-                    <div class="text-center col-xs-6 col-md-4">
+            	<div class="show-product">
+            		 <div class="tubiao">
+            		 	<img class="img-anlie" src="css/img/anlie-tubiao.png"/>
+            		 </div>
+            		  <span>精选案例</span>
+            	</div>
+             
+                <div class="row anlie-div">
+                    <div class="text-center col-xs-3 col-md-3">
                         <div class="circle">
-                            <div class="meeting"></div>
-                            <div class="meeting-video"></div>
+                            <img alt="" src="css/img/anlie-1.jpg">
+                            <div>豪华别墅住宅</div>
+                           	<div>展厅/住宅案例    2015-04-20</div>                                         
                         </div>
                     </div>
-                    <div class="text-center col-xs-6 col-md-4 ">
+                    <div class="text-center col-xs-3 col-md-3 ">
                         <div class="circle">
-                            <div class="xeq"></div>
-                            <div class="xeq-video"></div>
+                            <img alt="" src="css/img/anlie-2.jpg">
+                            <div>某公司多媒体会议室美逢施工</div>
+                           	<div>展厅/住宅案例    2015-04-20</div>
                         </div>
                     </div>
-                    <div class="text-center col-xs-6 col-md-4">
+                    <div class="text-center col-xs-3 col-md-3">
                         <div class="circle">
-                            <div class="activity"></div>
-                            <div class="activity-video"></div>
+                            <img alt="" src="css/img/anlie-3.jpg">
+                            <div>豪华欧式整体橱柜美逢施工</div>
+                           	<div>展厅/住宅案例    2015-04-20</div>
+                        </div>
+                    </div>
+                    <div class="text-center col-xs-3 col-md-3">
+                        <div class="circle">
+                            <img alt="" src="css/img/anlie-4.jpg">
+                            <div>建设银行大型会议室美逢施工</div>
+                           	<div>展厅/住宅案例    2015-04-20</div>
+                        </div>
+                    </div>
+                </div>
+                
+                 <div class="row anlie-div">
+                    <div class="text-center col-xs-3 col-md-3">
+                        <div class="circle">
+                            <img alt="" src="css/img/anlie-5.jpg">
+                            <div>豪华别墅住宅</div>
+                           	<div>展厅/住宅案例    2015-04-20</div>                                         
+                        </div>
+                    </div>
+                    <div class="text-center col-xs-3 col-md-3 ">
+                        <div class="circle">
+                            <img alt="" src="css/img/anlie-6.jpg">
+                            <div>某公司多媒体会议室美逢施工</div>
+                           	<div>展厅/住宅案例    2015-04-20</div>
+                        </div>
+                    </div>
+                    <div class="text-center col-xs-3 col-md-3">
+                        <div class="circle">
+                            <img alt="" src="css/img/anlie-7.jpg">
+                            <div>豪华欧式整体橱柜美逢施工</div>
+                           	<div>展厅/住宅案例    2015-04-20</div>
+                        </div>
+                    </div>
+                    <div class="text-center col-xs-3 col-md-3">
+                        <div class="circle">
+                            <img alt="" src="css/img/anlie-8.jpg">
+                            <div>建设银行大型会议室美逢施工</div>
+                           	<div>展厅/住宅案例    2015-04-20</div>
                         </div>
                     </div>
                 </div>
