@@ -10,48 +10,73 @@
     <meta name="description" content="也娜美缝剂专注于在终极客户端以完美的施工，最大限度的发挥产品的特点">
     <meta name="author" content="也娜美缝剂">
     <link rel="shortcut icon" type="image/x-icon" href="/aaa.ico" media="screen" />
-    <link href="scripts/common/bootstrap/css/bootstrap.min.css?v={JS_CSS_V}" rel="stylesheet" type="text/css" />
-    <link href="scripts/common/bootstrap/css/bootstrap-theme.css?v={JS_CSS_V}" rel="stylesheet" type="text/css" />
-    <link href="css/main.css" rel="stylesheet" type="text/css"/>    
-   	<link href="css/footer.css" rel="stylesheet" type="text/css"/>
-    <script src="scripts/common/jquery-1.11.1.min.js"></script>
-    <script src="scripts/common/jquery.easing.js"></script>
-    <script src="scripts/common/bootstrap/js/bootstrap.min.js"></script>
-    <script src="scripts/common/jquery.cookie.js"></script>
-    <script src="scripts/common/fullPage/jquery.fullPage.js"></script>
-    <script src="scripts/common/jquery.slimsscroll.js"></script>
+    <link href="/scripts/common/bootstrap/css/bootstrap.min.css?v={JS_CSS_V}" rel="stylesheet" type="text/css" />
+    <link href="/scripts/common/bootstrap/css/bootstrap-theme.css?v={JS_CSS_V}" rel="stylesheet" type="text/css" />   
+    <link href="/css/nav.css" rel="stylesheet" type="text/css"/> 
+   	<link href="/css/footer.css" rel="stylesheet" type="text/css"/>
+    <script src="/scripts/common/jquery-1.11.1.min.js"></script>
+    <script src="/scripts/common/jquery.easing.js"></script>
+    <script src="/scripts/common/bootstrap/js/bootstrap.min.js"></script>  
+    <script src="/scripts/common/jquery.slimsscroll.js"></script>
 
     <script src="scripts/index.js"></script>
 </head>
 <body class="index">
-    <div class="fixed js-header"  id="header">
+    <div class="fixed"  id="header">
         <div class="header">
             <div class="container">
-                <a href="/webUser/toIndex" class="logo"  title="也娜美缝剂">
-                    <span class="icon icon-logo">也娜美缝剂</span>
-                </a>               
-                <ul class="nav-link">
-                    <li><a href="/webUser/toIndex">首页</a></li>                  
-                    <li>
-                    	<a href="/webUser/toNewProject">公司简介
-                    	
-                    	
-                    	
-                    	</a>
-                    </li>    
-                    <li><a href="/webUser/toIndex">产品中心</a></li>                  
-                   	<li><a href="/webUser/toNewProject">客户宝典</a></li>     
-                    <li><a href="/webUser/toIndex">美缝案例</a></li>                  
-                    <li><a href="/webUser/toNewProject">新闻动态</a></li>   
-                    <li><a href="/webUser/toNewProject">人才招聘</a></li>      
-                    <li><a href="/webUser/toNewProject">联系我们</a></li>                      
-                </ul>
+            	<div class="row">            	
+            		<div class="nav-left">
+            			<a href="/" class="logo-nav" style="float:left;" title="也娜美缝剂">
+            				<img alt="logo" src="/css/img/logo.png" style="margin-top:13px;padding:0;width:128px;height:27px;"/>
+            			</a>
+            		</div>
+            		<div class="nav-bar">
+	            		<ul class="nav nav-link">
+		                    <li><a href="#">首页</a></li>     
+		                    
+		                    <li role="presentation" class="dropdown">
+							    <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="menu" aria-haspopup="true" aria-expanded="false">
+							       	企业介绍<span class="caret"></span>
+							    </a>
+							    <ul class="dropdown-menu dropdown-menu-custom">
+							       <li><a href="/startups"><i class="icon-file"></i>企业简介</a></li>
+				                      <li><a href="/crowds" target="_blank"><i class="icon-group"></i>企业证书</a></li>
+				                      <li><a href="/crowds" target="_blank"><i class="icon-group"></i>施工部管理层</a></li>
+							    </ul>
+							</li>
+				                    
+		                  
+		                    <li role="presentation" class="dropdown">
+							    <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="menu" aria-haspopup="true" aria-expanded="false">
+							       	产品展厅<span class="caret"></span>
+							    </a>
+							    <ul class="dropdown-menu dropdown-menu-custom">
+							       <li><a href="/startups"><i class="icon-file"></i>美缝产品</a></li>
+				                   <li><a href="/crowds" target="_blank"><i class="icon-group"></i>美缝工具</a></li>				                     
+							    </ul>
+							</li>                  
+		                   	<li><a href="/webUser/toNewProject">合作伙伴</a></li> 
+		                   	<li role="presentation" class="dropdown">
+							    <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="menu" aria-haspopup="true" aria-expanded="false">
+							       	美缝案例<span class="caret"></span>
+							    </a>
+							    <ul class="dropdown-menu dropdown-menu-custom">
+							       <li><a href="/startups"><i class="icon-file"></i>家装</a></li>
+				                   <li><a href="/crowds" target="_blank"><i class="icon-group"></i>工程装</a></li>				                     
+							    </ul>
+							</li>        		                               
+		                    <li><a href="/webUser/toNewProject">企业动态</a></li>   		                    
+		                    <li><a href="/webUser/toNewProject">联系我们</a></li>                      
+		                </ul>            		
+            		</div>
+            	</div>                
             </div>
         </div>
     </div>
 
- 	<div id="fullPage" >
-		<div class="section section-home section-switch-banner">
+ 	<div>
+		<!-- <div class="section section-home section-switch-banner">
            <div id="indexCarousel" class="carousel bslide" data-ride="carousel">
                <ol class="carousel-indicators">
                    <li data-target="#indexCarousel" data-slide-to="0" class="active"></li>
@@ -82,9 +107,9 @@
                    <span class="sr-only">Next</span>
                </a>
            </div>
-        </div>
+        </div> -->
 
-        <div class="section section-intro">
+        <!-- <div class="section section-intro">
             <div class="container">
                 <div class="row">
                 	<div class="text-center col-xs-3 col-md-3 chuantou">
@@ -133,9 +158,9 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
 
-        <div class="section section-product">
+     <!--    <div class="section section-product">
             <div class="container">
             	<div class="show-product">
             		 <div class="tubiao">
@@ -206,8 +231,8 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
 	</div>
-  <jsp:include page="/pages/footer.jsp" />
+ <%--  <jsp:include page="/pages/footer.jsp" /> --%>
 </body>
 </html>
