@@ -131,12 +131,12 @@
 				
 				                        <li>
 				                            <div class="news-date"><span>22</span><strong>2015-05</strong></div>
-				                            <div class="news-item"><a href="NewsView.Asp?ID=26&SortID=2">2015澳彩科技首季销售会议暨“真正..</a></div>
+				                            <div class="news-item"><a href="NewsView.Asp?ID=26&SortID=2">2015也娜科技首季销售会议暨“真正..</a></div>
 				                        </li>
 				
 				                        <li>
 				                            <div class="news-date"><span>12</span><strong>2015-03</strong></div>
-				                            <div class="news-item"><a href="NewsView.Asp?ID=19&SortID=2">澳彩办公室户外活动营..</a></div>
+				                            <div class="news-item"><a href="NewsView.Asp?ID=19&SortID=2">也娜办公室户外活动营..</a></div>
 				                        </li>
 				
 				                        <li>
@@ -151,10 +151,10 @@
                     </div>
                     <div class="col-xs-5 col-md-5">
                         <div class="about">
-				            <div class="channel-title"><span>认识澳彩</span><a href="#">更多</a></div>
+				            <div class="channel-title"><span>认识也娜</span><a href="#">更多</a></div>
 				            <div class="about-pic"><img src="css/img/news-logo.jpg" width="310" height="100%" /></div>
 				            <div class="about-con">
-				                重庆澳彩科技化工有限公司拥有色母双螺杆生产线十多条，配备进口高端检测设备和最具专业的配色师队伍，使生产和研发达到国内一流水平，年产量近1.8万吨，主要生产IT电脑专用色母料、抽粒料；PE、PPR等管材专用色母； 汽车摩托车内饰塑胶件用色母色粉、及高浓度吹膜色母...
+				                重庆也娜科技化工有限公司拥有色母双螺杆生产线十多条，配备进口高端检测设备和最具专业的配色师队伍，使生产和研发达到国内一流水平，年产量近1.8万吨，主要生产IT电脑专用色母料、抽粒料；PE、PPR等管材专用色母； 汽车摩托车内饰塑胶件用色母色粉、及高浓度吹膜色母...
 				            </div>
 				        </div>
                     </div>                  
