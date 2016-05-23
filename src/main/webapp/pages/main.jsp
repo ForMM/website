@@ -5,24 +5,20 @@
 <head lang="en">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    <title>猫投鹰，让投资更简单</title>
-    <meta name="keywords" content="猫投鹰,创业,投资,创业梦想">
-    <meta name="description" content="猫投鹰专注于为以高科技为基础的新创公司提供融资活动，只要你的创业项目好，资金就在我们这里找。">
-    <meta name="author" content="猫投鹰">
-    <link rel="shortcut icon" type="image/x-icon" href="/maotouying_favicon.ico" media="screen" />
+    <title>也娜美缝剂-瓷砖填缝剂</title>
+    <meta name="keywords" content="也娜美缝剂,瓷砖填缝剂">
+    <meta name="description" content="也娜美缝剂专注于在终极客户端以完美的施工，最大限度的发挥产品的特点">
+    <meta name="author" content="也娜美缝剂">
+    <link rel="shortcut icon" type="image/x-icon" href="/aaa.ico" media="screen" />
     <link href="/scripts/common/bootstrap/css/bootstrap.min.css?v={JS_CSS_V}" rel="stylesheet" type="text/css" />
-    <link href="/scripts/common/bootstrap/css/bootstrap-theme.css?v={JS_CSS_V}" rel="stylesheet" type="text/css" />
-    <link href="/css/nav.css" rel="stylesheet" type="text/css"/>
-    <link href="/css/main.css" rel="stylesheet" type="text/css"/>
-    <link href="/css/footer.css" rel="stylesheet" type="text/css"/>
-
+    <link href="/scripts/common/bootstrap/css/bootstrap-theme.css?v={JS_CSS_V}" rel="stylesheet" type="text/css" />   
+    <link href="/css/nav.css" rel="stylesheet" type="text/css"/> 
+    <link href="/css/index.css" rel="stylesheet" type="text/css"/> 
+   	<link href="/css/footer.css" rel="stylesheet" type="text/css"/>
     <script src="/scripts/common/jquery-1.11.1.min.js"></script>
     <script src="/scripts/common/jquery.easing.js"></script>
-    <script src="/scripts/common/bootstrap/js/bootstrap.min.js"></script>
-    <script src="/scripts/common/jquery.cookie.js"></script>
-    <script src="/scripts/common/fullPage/jquery.fullPage.js"></script>
+    <script src="/scripts/common/bootstrap/js/bootstrap.min.js"></script>  
     <script src="/scripts/common/jquery.slimsscroll.js"></script>
-    <script src="/scripts/main.js"></script>
 </head>
 <body class="index">
     <jsp:include page="/pages/navigation.jsp" flush="true" />		
