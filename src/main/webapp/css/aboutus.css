@@ -1,0 +1,35 @@
+.aboutus{
+	background:#7AF76C;
+}
+.content-img{
+	margin:80px auto;
+}
+.banner-img{
+	width:100%;
+}
+.contact-div{
+	padding-left:50px;
+}
+
+.contact-div h1{	
+	font-weight:bold;
+}
+
+.contact-div div{
+	display:inline-block;
+}
+
+
+.contact-div div img{
+	position:absolute;
+	top:0;
+	right:30px;
+}
+
+#allmap {
+	width: 98%;
+	height: 300px;
+	overflow: hidden;
+	margin:10px auto;
+	font-family:"Î¢ÈíÑÅºÚ";
+}

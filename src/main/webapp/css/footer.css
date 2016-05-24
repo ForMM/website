@@ -1,5 +1,5 @@
 
-.chuangtouFooter {
+.footer {
 	/* position:fixed; */
     background: #222 none repeat scroll 0 0;
     color: #cececd;
@@ -7,21 +7,21 @@
     width: 100%;
     bottom: 0;
 }
-.chuangtouFooter p {
+.footer p {
     margin: 0;
 }
-.chuangtouFooter .container {
+.footer .container {
     padding-top: 15px;
     text-align: center;
 }
-.chuangtouFooter .container p.title {
+.footer .container p.title {
     color: #ffffff;
     font-size: 15px;
 }
-.chuangtouFooter .container p.title i {
+.footer .container p.title i {
    /*  color: #cececd; */
 }
-.chuangtouFooter .contactDiv {
+.footer .contactDiv {
     margin: 10px auto;
     overflow: hidden; 
 }

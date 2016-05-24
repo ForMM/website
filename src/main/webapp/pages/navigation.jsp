@@ -19,7 +19,7 @@
             		</div>
             		<div class="col-sm-10 col-md-9 nav-bar">
 	            		<ul class="nav nav-link">
-		                    <li><a href="#">首页</a></li>     
+		                    <li><a href="../index.jsp">首页</a></li>     
 		                    
 		                    <li role="presentation" class="dropdown">
 							    <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="menu" aria-haspopup="true" aria-expanded="false">
@@ -52,7 +52,7 @@
 							    </ul>
 							</li>        		                               
 		                    <li><a href="/webUser/toNewProject">企业动态</a></li>   		                    
-		                    <li><a href="/webUser/toNewProject">联系我们</a></li>                      
+		                    <li><a href="../pages/aboutus.jsp">联系我们</a></li>                      
 		                </ul>            		
             		</div>
             	</div>                

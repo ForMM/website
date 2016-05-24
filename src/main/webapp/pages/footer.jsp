@@ -6,7 +6,7 @@
   
 </head>
 <body>
-    <div class="chuangtouFooter">
+    <div class="footer">
     	<div class="container">
     	<p class="title">美缝天王 &nbsp;专注室内装修</p>
         <div class="contactDiv">       

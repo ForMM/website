@@ -9,7 +9,7 @@ body {
     margin: 0;
 }
 
-body .index .fixed {
+body .fixed {
 	position: fixed;
 	left: 0;   
     top: 0;
@@ -17,12 +17,12 @@ body .index .fixed {
     z-index: 1000;
 }
 
-.index .fixed li{
+ .fixed li{
 	position:relative;
 	line-height: 30px;
 }
 
-.index .fixed li a{
+ .fixed li a{
 	font-size:16px;
 	color:#ffffff;
 	font-weight:bold;
