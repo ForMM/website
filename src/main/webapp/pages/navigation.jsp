@@ -51,7 +51,7 @@
 				                   <li><a href="/crowds" target="_blank"><i class="icon-group"></i>工程装</a></li>				                     
 							    </ul>
 							</li>        		                               
-		                    <li><a href="/webUser/toNewProject">企业动态</a></li>   		                    
+		                    <li><a href="../pages/news.jsp">企业动态</a></li>   		                    
 		                    <li><a href="../pages/aboutus.jsp">联系我们</a></li>                      
 		                </ul>            		
             		</div>

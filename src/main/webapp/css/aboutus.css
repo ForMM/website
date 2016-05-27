@@ -1,5 +1,5 @@
 .aboutus{
-	background:#7AF76C;
+	/* background:#7AF76C; */
 }
 .content-img{
 	margin:80px auto;
@@ -30,6 +30,6 @@
 	width: 98%;
 	height: 300px;
 	overflow: hidden;
-	margin:10px auto;
+	margin:50px auto;
 	font-family:"Î¢ÈíÑÅºÚ";
 }
