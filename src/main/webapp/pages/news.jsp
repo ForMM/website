@@ -18,8 +18,7 @@
     <script src="../../scripts/common/jquery-1.11.1.min.js"></script>
     <script src="../../scripts/common/jquery.easing.js"></script>
     <script src="../../scripts/common/bootstrap/js/bootstrap.min.js"></script>  
-    <script src="../../scripts/common/jquery.slimsscroll.js"></script>
-    <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=136a0c1063fcd5642df9618ddf29a973"></script>
+    <script src="../../scripts/common/jquery.slimsscroll.js"></script>    
 </head>
 <body class="aboutus">
     <jsp:include page="/pages/navigation.jsp"/>		
@@ -35,7 +34,23 @@
 	<div>
 		<div class="container content">
 			<div class="row">
-					  
+				<div id="news-list">
+				
+				</div>
+				<div id="newsListPage" class="pageDiv"></div>
+				<script id="newsListTmpl" type="text/x-jquery-tmpl">
+			{{each(i,item) dataList}}
+            	<tr class="tabble-body"> 
+					<td style="text-align:center">{{= i+1}}
+					<td style="text-align:center">{{= item.header }}</td>
+					<td style="text-align:center">{{= item.newsContent }}</td>
+					<td style="text-align:center">{{= item.createTime }}</td>
+								
+                  
+                  
+			   </tr>
+			{{/each}}
+				</script>  
 			</div>
 			<div class="row">
 				
@@ -43,4 +58,7 @@
 		</div>		
 	</div>
 	<jsp:include page="/pages/footer.jsp" flush="true" />
+	<script type="text/javascript" src="/scripts/common/jquery.tmpl.min.js"></script> 
+	<script type="text/javascript" src="/scripts/common/jquery.tmplPlus.min.js"></script>
+	<script type="text/javascript" src="/scripts/news.js"></script>
 </body>

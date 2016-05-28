@@ -5,6 +5,7 @@
 <head lang="en">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1" />
     <title>也娜美缝剂-瓷砖填缝剂</title>
     <meta name="keywords" content="也娜美缝剂,瓷砖填缝剂">
     <meta name="description" content="也娜美缝剂专注于在终极客户端以完美的施工，最大限度的发挥产品的特点">
@@ -15,10 +16,19 @@
     <link href="/css/nav.css" rel="stylesheet" type="text/css"/> 
     <link href="/css/index.css" rel="stylesheet" type="text/css"/> 
    	<link href="/css/footer.css" rel="stylesheet" type="text/css"/>
+   	
+   	<!--[if lt IE 9]>
+<script type="text/javascript" src="/scripts/common/html5.js"></script>
+<script type="text/javascript" src="/scripts/common/bootstrap/js/respond.min.js"></script>
+<![endif]-->
+   	
+   	
     <script src="/scripts/common/jquery-1.11.1.min.js"></script>
     <script src="/scripts/common/jquery.easing.js"></script>
     <script src="/scripts/common/bootstrap/js/bootstrap.min.js"></script>  
     <script src="/scripts/common/jquery.slimsscroll.js"></script>
+    
+    
     
     <script src="scripts/index.js"></script>
     <script src="scripts/indexproduct.js"></script>
@@ -101,9 +111,13 @@
                     <div class="col-xs-5 col-md-5">
                         <div class="about">
 				            <div class="channel-title"><span>认识也娜</span><a href="#">更多</a></div>
-				            <div class="about-pic"><img src="css/img/news-logo.jpg" width="310" height="100%" /></div>
+				            <div class="about-pic">
+					           <embed align="middle" src="http://player.youku.com/player.php/sid/XMTI4MjY1NDkzMg==/v.swf" width="100%" height="100%" type="application/x-shockwave-flash" wmode="opaque" flashvars="isAutoPlay=true" allowscriptaccess="sameDomain" quality="high">
+				            <!-- <img src="css/img/news-logo.jpg" width="310" height="100%" /> -->
+				            
+				            </div>
 				            <div class="about-con">
-				                重庆也娜科技化工有限公司拥有色母双螺杆生产线十多条，配备进口高端检测设备和最具专业的配色师队伍，使生产和研发达到国内一流水平，年产量近1.8万吨，主要生产IT电脑专用色母料、抽粒料；PE、PPR等管材专用色母； 汽车摩托车内饰塑胶件用色母色粉、及高浓度吹膜色母...
+				                重庆也娜科技化工有限公司拥有色母双螺杆生产线十多条，配备进口高端检测设备和最具专业的配色师队伍...
 				            </div>
 				        </div>
                     </div>                  

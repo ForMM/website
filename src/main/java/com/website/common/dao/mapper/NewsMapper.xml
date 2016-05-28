@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.website.common.dao.NewsMapper" >
+  <resultMap id="BaseResultMap" type="com.website.common.entity.News" >
+    <id column="n_news_id" property="nNewsId" jdbcType="BIGINT" />
+    <result column="c_header" property="cHeader" jdbcType="VARCHAR" />
+    <result column="n_news_type" property="nNewsType" jdbcType="INTEGER" />
+    <result column="c_news_content" property="cNewsContent" jdbcType="VARCHAR" /> 
+    <result column="t_create_time" property="tCreateTime" jdbcType="TIMESTAMP" />
+    <result column="t_update_time" property="tUpdateTime" jdbcType="TIMESTAMP" />
+  </resultMap>
+  <sql id="Base_Column_List" >
+    n_news_id, c_header, n_news_type, c_news_content, t_create_time, t_update_time
+  </sql>
+  <select id="findAll" resultMap="BaseResultMap" parameterType="java.util.Map">
+  	select 
+    <include refid="Base_Column_List" />
+    from news
+  </select>
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Long" >
+    select 
+    <include refid="Base_Column_List" />
+    from news
+    where n_news_id = #{nNewsId,jdbcType=BIGINT}
+  </select>
+  <select id="findAccountByParam" resultMap="BaseResultMap" parameterType="java.util.Map">
+    select 
+    <include refid="Base_Column_List" />
+    from news
+    <where>
+    <if test="n_news_type != null" >
+       and n_news_type=#{nNewsType}
+     </if>  
+    </where>
+  </select>
+    <select id="seachNews" resultType="java.lang.Long" parameterType="java.util.Map">
+    select 
+    <include refid="Base_Column_List" />
+    from news
+    <where>   
+     <if test="keyword!=null and keyword!=''">
+    and (
+    c_user_addr like CONCAT('%','${keyword}','%' ) 
+    or c_user_realname like CONCAT('%','${keyword}','%' ) 
+    or c_user_company like CONCAT('%','${keyword}','%' ) 
+    or c_user_position like CONCAT('%','${keyword}','%' ) 
+    )
+    </if>    
+    </where>
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Long" >
+    delete from news
+    where n_news_id = #{n_news_id,jdbcType=BIGINT}
+  </delete>
+  <insert id="insert" parameterType="com.website.common.entity.News" >
+    insert into news (c_header, n_news_type,c_news_content,t_create_time, t_update_time)
+    values (#{cHeader,jdbcType=VARCHAR}, #{nNewsType,jdbcType=BIT}, 
+      #{cNewsContent,jdbcType=VARCHAR}, #{tCreateTime,jdbcType=TIMESTAMP}, #{tUpdateTime,jdbcType=TIMESTAMP}
+      )
+  </insert>
+  <insert id="insertSelective" parameterType="com.website.common.entity.News" useGeneratedKeys="true" keyProperty="nNewsId">
+    insert into news
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="nNewsId != null" >
+        n_news_id,
+      </if>
+      <if test="cHeader != null" >
+        c_header,
+      </if>
+      <if test="nNewsType != null" >
+        n_news_type,
+      </if>
+      <if test="cNewsContent != null" >
+        c_news_content,
+      </if>         
+      <if test="tCreateTime != null" >
+        t_create_time,
+      </if>
+      <if test="tUpdateTime != null" >
+        t_update_time,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="nNewsId != null" >
+        #{nNewsId,jdbcType=BIGINT},
+      </if>     
+      <if test="cHeader != null" >
+        #{cHeader,jdbcType=VARCHAR},
+      </if>
+      <if test="nNewsType != null" >
+        #{nNewsType,jdbcType=BIT},
+      </if>
+      <if test="cNewsContent != null" >
+        #{cNewsContent,jdbcType=VARCHAR},
+      </if>  
+      <if test="tCreateTime != null" >
+        #{tCreateTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="tUpdateTime != null" >
+        #{tUpdateTime,jdbcType=TIMESTAMP},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByAccount" parameterType="com.website.common.entity.News" >
+    update news
+    <set >         
+      <if test="cHeader != null" >
+        c_header = #{cHeader,jdbcType=VARCHAR},
+      </if>
+      <if test="nNewsType != null" >
+        n_news_type = #{nNewsType,jdbcType=BIT},
+      </if>
+      <if test="cNewsContent != null" >
+        c_news_content = #{cNewsContent,jdbcType=VARCHAR},
+      </if>     
+      <if test="tCreateTime != null" >
+        t_create_time = #{tCreateTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="tUpdateTime != null" >
+        t_update_time = #{tUpdateTime,jdbcType=TIMESTAMP},
+      </if>
+    </set>
+    where  n_news_id = #{nNewsId,jdbcType=VARCHAR}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.website.common.entity.News" >
+    update news
+    set c_header = #{cHeader,jdbcType=VARCHAR},
+      n_news_type = #{nNewsType,jdbcType=BIT},
+      c_news_content = #{cNewsContent,jdbcType=VARCHAR},     
+      t_create_time = #{tCreateTime,jdbcType=TIMESTAMP},
+      t_update_time = #{tUpdateTime,jdbcType=TIMESTAMP}
+    where n_news_id = #{nNewsId,jdbcType=BIGINT}
+  </update>
+  
+   <select id="findNewsList" resultMap="BaseResultMap" parameterType="java.util.Map">
+	    select 
+	    <include refid="Base_Column_List" />
+	    from news
+	    <where>	  
+	    <if test="cNewsContent!=null and cNewsContent!=''">
+	    and c_news_content like CONCAT('%','${cNewsContent}','%' ) 
+	    </if>
+	    </where>
+	     <if test="startRow!=null">
+	    limit #{startRow},#{pageSize}
+	    </if>
+  </select>
+  <select id="findNewsListCount" parameterType="java.util.Map" resultType="java.lang.Integer">
+    	select count(*) from news
+	    <where>	 
+	    <if test="cNewsContent!=null and cNewsContent!=''">
+	    and c_news_content like CONCAT('%','${cNewsContent}','%' ) 
+	    </if>
+	    </where>
+	</select>
+  
+</mapper>

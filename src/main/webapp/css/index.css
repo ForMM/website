@@ -142,11 +142,12 @@
 
 .about-pic {    
     border: 5px solid #e7e7e7;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
+    height:250px;
 }
 
 .about-con {
-    height: 148px;
+    height: 68px;
     color: #222222;
     line-height: 24px;
     text-indent: 25px;
