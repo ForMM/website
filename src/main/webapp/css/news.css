@@ -1,0 +1,45 @@
+.news{
+	/* background:#7AF76C; */
+}
+.content-img{
+	margin:80px auto 20px;
+}
+.banner-img{
+	width:100%;
+}
+.newsList,.pageDiv{
+	padding-left:20px;
+}
+
+.newsList h1{	
+	font-weight:bold;
+	color:#FFB500;	
+	font-family: "Î¢ÈíÑÅºÚ";
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.newsList div{	
+	clear: both;
+    color: #999;
+    font-family: "Î¢ÈíÑÅºÚ";
+    font-size: 14px;
+}
+
+.newsList .newsContent{
+	border-bottom: 1px solid #ccc;
+    clear: both;
+    color: #666;
+    font-family: "Î¢ÈíÑÅºÚ";
+    font-size: 14px;
+    line-height: 24px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+.header-icon{
+	background:url(/css/img/view-xiao.gif);
+	float: left;
+    height: 30px;
+    width: 30px;
+}
