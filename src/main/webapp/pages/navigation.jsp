@@ -12,12 +12,12 @@
         <div class="header">
             <div class="container">
             	<div class="row">            	
-            		<div class="col-sm-2 col-md-3 nav-left">
+            		<div class="col-sm-2 col-md-2 nav-left">
             			<a href="/" class="logo-nav" style="float:right;" title="也娜美缝剂">
             				<img alt="logo" src="/css/img/logo.png" style="margin-top:13px;padding:0;width:128px;height:27px;"/>
             			</a>
             		</div>
-            		<div class="col-sm-10 col-md-9 nav-bar">
+            		<div class="col-sm-10 col-md-10 nav-bar">
 	            		<ul class="nav nav-link">
 		                    <li><a href="../index.jsp">首页</a></li>     
 		                    
@@ -27,8 +27,8 @@
 							    </a>
 							    <ul class="dropdown-menu dropdown-menu-custom">
 							       	<li><a href="../pages/company.jsp"><i class="icon-file"></i>企业简介</a></li>
-				                    <li><a href="../pages/culture.jsp" target="_blank"><i class="icon-group"></i>企业证书</a></li>
-				                    <li><a href="/crowds" target="_blank"><i class="icon-group"></i>施工部管理层</a></li>
+				                    <li><a href="../pages/culture.jsp" ><i class="icon-group"></i>企业证书</a></li>
+				                    <li><a href="../pages/organization.jsp"><i class="icon-group"></i>施工部管理层</a></li>
 							    </ul>
 							</li>
 				                    		                  

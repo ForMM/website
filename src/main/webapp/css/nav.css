@@ -14,7 +14,9 @@ body .fixed {
 	left: 0;   
     top: 0;
     width: 100%;
-    z-index: 1000;
+    z-index: 1000;   
+    padding-top:10px;
+    padding-bottom:10px;
 }
 
  .fixed li{
@@ -23,9 +25,10 @@ body .fixed {
 }
 
  .fixed li a{
-	font-size:16px;
+ 	font-family:"微软雅黑",Georgia,Serif;
+	font-size:18px;
 	color:#ffffff;
-	font-weight:bold;
+	font-weight:bold;	
 }
 
 .nav-row{
@@ -35,7 +38,8 @@ body .fixed {
 	text-align:center;
 }
 #header{
-	background-color:#222222;
+	background-color:#0094FC;
+	
 }
 
 #header ul.nav-link{
@@ -68,19 +72,19 @@ body .fixed {
 
 .dropdown-menu-custom {
     background-clip: padding-box;
-    background-color: #222;
+    background-color: #0094FC;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
     display: none;
     float: left;
     left: 0;
-    margin: 0;
+    margin-top: 8px;
     min-width: 160px;
     position: absolute;
     top: 50px;
     z-index: 1000;
 }
 .dropdown-menu-custom li a {
-    color: #75c8e6;
+    color: #fff;
     display: block;
     padding: 8px 7px;
 }
