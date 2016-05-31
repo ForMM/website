@@ -26,8 +26,8 @@
 							       	企业介绍<span class="caret"></span>
 							    </a>
 							    <ul class="dropdown-menu dropdown-menu-custom">
-							       	<li><a href="/startups"><i class="icon-file"></i>企业简介</a></li>
-				                    <li><a href="/crowds" target="_blank"><i class="icon-group"></i>企业证书</a></li>
+							       	<li><a href="../pages/company.jsp"><i class="icon-file"></i>企业简介</a></li>
+				                    <li><a href="../pages/culture.jsp" target="_blank"><i class="icon-group"></i>企业证书</a></li>
 				                    <li><a href="/crowds" target="_blank"><i class="icon-group"></i>施工部管理层</a></li>
 							    </ul>
 							</li>
@@ -41,7 +41,7 @@
 				                   <li><a href="/crowds" target="_blank"><i class="icon-group"></i>美缝工具</a></li>				                     
 							    </ul>
 							</li>                  
-		                   	<li><a href="/webUser/toNewProject">合作伙伴</a></li> 
+		                   	<li><a href="../pages/partner.jsp">合作伙伴</a></li> 
 		                   	<li role="presentation" class="dropdown">
 							    <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="menu" aria-haspopup="true" aria-expanded="false">
 							       	美缝案例<span class="caret"></span>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.website.common.dao.PartnerMapper" >
+  <resultMap id="BaseResultMap" type="com.website.common.entity.Partner" >
+    <id column="n_partner_id" property="nPartnerId" jdbcType="BIGINT" />
+    <result column="c_partner_name" property="cPartnerName" jdbcType="VARCHAR" />
+    <result column="c_partner_address" property="cPartnerAddress" jdbcType="VARCHAR" />
+    <result column="c_partner_logo" property="cPartnerLogo" jdbcType="VARCHAR" /> 
+    <result column="t_create_time" property="tCreateTime" jdbcType="TIMESTAMP" />
+    <result column="t_update_time" property="tUpdateTime" jdbcType="TIMESTAMP" />
+  </resultMap>
+  <sql id="Base_Column_List" >
+    n_partner_id, c_partner_name, c_partner_address, c_partner_logo, t_create_time, t_update_time
+  </sql>
+  <select id="findAll" resultMap="BaseResultMap" parameterType="java.util.Map">
+  	select 
+    <include refid="Base_Column_List" />
+    from partner
+  </select>
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Long" >
+    select 
+    <include refid="Base_Column_List" />
+    from partner
+    where n_partner_id = #{nPartnerId,jdbcType=BIGINT}
+  </select>
+  <select id="findAccountByParam" resultMap="BaseResultMap" parameterType="java.util.Map">
+    select 
+    <include refid="Base_Column_List" />
+    from partner
+    <where>
+  
+    </where>
+  </select>
+    <select id="seachpartner" resultType="java.lang.Long" parameterType="java.util.Map">
+    select 
+    <include refid="Base_Column_List" />
+    from partner
+    <where>   
+     <if test="keyword!=null and keyword!=''">
+    and (
+    c_user_addr like CONCAT('%','${keyword}','%' ) 
+    or c_user_realname like CONCAT('%','${keyword}','%' ) 
+    or c_user_company like CONCAT('%','${keyword}','%' ) 
+    or c_user_position like CONCAT('%','${keyword}','%' ) 
+    )
+    </if>    
+    </where>
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Long" >
+    delete from partner
+    where n_partner_id = #{n_partner_id,jdbcType=BIGINT}
+  </delete>
+  <insert id="insert" parameterType="com.website.common.entity.Partner" >
+    insert into partner (c_partner_name, c_partner_address,c_partner_logo,t_create_time, t_update_time)
+    values (#{cPartnerName,jdbcType=VARCHAR}, #{cPartnerAddress,jdbcType=BIT}, 
+      #{cPartnerLogo,jdbcType=VARCHAR}, #{tCreateTime,jdbcType=TIMESTAMP}, #{tUpdateTime,jdbcType=TIMESTAMP}
+      )
+  </insert>
+  <insert id="insertSelective" parameterType="com.website.common.entity.Partner" useGeneratedKeys="true" keyProperty="npartnerId">
+    insert into partner
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="npartnerId != null" >
+        n_partner_id,
+      </if>
+      <if test="cPartnerName != null" >
+        c_partner_name,
+      </if>
+      <if test="cPartnerLogo != null" >
+        c_partner_logo,
+      </if>
+      <if test="cPartnerAddress != null" >
+        c_partner_address,
+      </if>         
+      <if test="tCreateTime != null" >
+        t_create_time,
+      </if>
+      <if test="tUpdateTime != null" >
+        t_update_time,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="npartnerId != null" >
+        #{npartnerId,jdbcType=BIGINT},
+      </if>     
+      <if test="cHeader != null" >
+        #{cHeader,jdbcType=VARCHAR},
+      </if>
+      <if test="npartnerType != null" >
+        #{npartnerType,jdbcType=BIT},
+      </if>
+      <if test="cpartnerContent != null" >
+        #{cpartnerContent,jdbcType=VARCHAR},
+      </if>  
+      <if test="tCreateTime != null" >
+        #{tCreateTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="tUpdateTime != null" >
+        #{tUpdateTime,jdbcType=TIMESTAMP},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByAccount" parameterType="com.website.common.entity.Partner" >
+    update partner
+    <set >         
+      <if test="cHeader != null" >
+        c_header = #{cHeader,jdbcType=VARCHAR},
+      </if>
+      <if test="npartnerType != null" >
+        n_partner_type = #{npartnerType,jdbcType=BIT},
+      </if>
+      <if test="cpartnerContent != null" >
+        c_partner_content = #{cpartnerContent,jdbcType=VARCHAR},
+      </if>     
+      <if test="tCreateTime != null" >
+        t_create_time = #{tCreateTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="tUpdateTime != null" >
+        t_update_time = #{tUpdateTime,jdbcType=TIMESTAMP},
+      </if>
+    </set>
+    where  n_partner_id = #{npartnerId,jdbcType=VARCHAR}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.website.common.entity.Partner" >
+    update partner
+    set c_header = #{cHeader,jdbcType=VARCHAR},
+      n_partner_type = #{npartnerType,jdbcType=BIT},
+      c_partner_content = #{cpartnerContent,jdbcType=VARCHAR},     
+      t_create_time = #{tCreateTime,jdbcType=TIMESTAMP},
+      t_update_time = #{tUpdateTime,jdbcType=TIMESTAMP}
+    where n_partner_id = #{npartnerId,jdbcType=BIGINT}
+  </update>
+  
+   <select id="findPartnerList" resultMap="BaseResultMap" parameterType="java.util.Map">
+	    select 
+	    <include refid="Base_Column_List" />
+	    from partner
+	    <where>	  
+	    <if test="cpartnerContent!=null and cpartnerContent!=''">
+	    and c_partner_name like CONCAT('%','${cpartnerContent}','%' ) 
+	    </if>
+	    </where>
+	     <if test="startRow!=null">
+	    limit #{startRow},#{pageSize}
+	    </if>
+  </select>
+  <select id="findPartnerListCount" parameterType="java.util.Map" resultType="java.lang.Integer">
+    	select count(*) from partner
+	    <where>	 
+	    <if test="cpartnerContent!=null and cpartnerContent!=''">
+	    and c_partner_name like CONCAT('%','${cpartnerContent}','%' ) 
+	    </if>
+	    </where>
+	</select>
+  
+</mapper>
