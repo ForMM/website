@@ -45,17 +45,17 @@
                </ol>
                <div class="carousel-inner" role="listbox">
                    <div class="item active banner-one">    
-                   		<img alt="" class="carousel-inner img-responsive img-rounded" src="css/img/banner-one.jpg">                   
+                   		<img alt="" class="carousel-inner img-responsive img-rounded" src="css/img/banner-one.png">                   
                    </div>
                    <div class="item banner-two"> 
-						<img alt="" class="carousel-inner img-responsive img-rounded" src="css/img/banner-two.jpg"> 
+						<img alt="" class="carousel-inner img-responsive img-rounded" src="css/img/banner-two.png"> 
 						<div class="carousel-caption">
 							<h3>也娜美缝剂</h3>
 							<p>为的是更好的视觉</p>
 						</div>                                  
                    </div>
                    <div class="item banner-three"> 
-                   		<img alt="" class="carousel-inner img-responsive img-rounded" src="css/img/banner-three.jpg">                                    
+                   		<img alt="" class="carousel-inner img-responsive img-rounded" src="css/img/banner-three.png">                                    
                    </div>                 
                </div>
                <a class="left carousel-control" href="#indexCarousel" role="button" data-slide="prev">
