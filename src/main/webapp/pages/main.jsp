@@ -5,6 +5,7 @@
 <head lang="en">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1" />
     <title>也娜美缝剂-瓷砖填缝剂</title>
     <meta name="keywords" content="也娜美缝剂,瓷砖填缝剂">
     <meta name="description" content="也娜美缝剂专注于在终极客户端以完美的施工，最大限度的发挥产品的特点">
@@ -15,6 +16,14 @@
     <link href="/css/nav.css" rel="stylesheet" type="text/css"/> 
     <link href="/css/index.css" rel="stylesheet" type="text/css"/> 
    	<link href="/css/footer.css" rel="stylesheet" type="text/css"/>
+   	
+   	 	
+   	   	<!--[if lt IE 9]>
+<script type="text/javascript" src="../../scripts/common/html5.js"></script>
+<script type="text/javascript" src="../../scripts/common/bootstrap/js/respond.min.js"></script>
+<![endif]-->
+   	
+   	
     <script src="/scripts/common/jquery-1.11.1.min.js"></script>
     <script src="/scripts/common/jquery.easing.js"></script>
     <script src="/scripts/common/bootstrap/js/bootstrap.min.js"></script>  

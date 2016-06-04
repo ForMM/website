@@ -1,0 +1,100 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />  
+   <script type="text/javascript" src="jquery-1.11.1.min.js"></script>
+    <script src="raphael.js"></script>
+    <script src="chinamapPath.js"></script>
+    <script src="chinamap.js"></script>
+    <style type="text/css">
+        #ChinaMap {
+            padding-right: 100px;
+            padding-left: 10px;
+            padding-bottom: 10px;
+            margin: 0px auto;
+            /*width: 100%;*/
+            padding-top: 0px;
+            position: relative;
+           /*  text-align: center; */
+        }
+
+        #tiplayer {
+            padding-right: 5px;
+            padding-left: 5px;
+            z-index: 1000;
+            min-height: 1em;
+            background: #000;
+            max-width: 250px;
+            padding-bottom: 5px;
+            font: 12px 'Microsoft YaHei',Arial,宋体,Tahoma,Sans-Serif;
+            color: #fff;
+            padding-top: 5px;
+            position: absolute;
+            text-align: left;
+            word-wrap: break-word;
+            -moz-border-radius: 3px;
+            -khtml-border-radius: 3px;
+            -webkit-border-radius: 3px;
+            border-radius: 3px;
+        }
+
+        .ToolTip {
+            padding-right: 5px;
+            padding-left: 5px;
+            z-index: 1000;
+            min-height: 1em;
+            background: #000;
+            max-width: 350px;
+            padding-bottom: 5px;
+            font: 12px 'Microsoft YaHei',Arial,宋体,Tahoma,Sans-Serif;
+            color: #fff;
+            padding-top: 5px;
+            position: absolute;
+            text-align: left;
+            word-wrap: break-word;
+            -moz-border-radius: 3px;
+            -khtml-border-radius: 3px;
+            -webkit-border-radius: 3px;
+            border-radius: 3px;
+        }
+
+        .ToolTip {
+            border-right: #c5b270 1px solid;
+            padding-right: 15px;
+            border-top: #c5b270 1px solid;
+            padding-left: 15px;
+            background: #fffbd6;
+            padding-bottom: 0px;
+            border-left: #c5b270 1px solid;
+            color: #bb861c;
+            line-height: 30px;
+            padding-top: 0px;
+            border-bottom: #c5b270 1px solid;
+            top: 0;
+        }
+        .person-img{
+        	width:200px;
+        	height:200px;
+        }
+    </style>
+</head>
+<body>
+    <div id="ChinaMap">
+        <div id="map"></div>
+        <div id="ToolTip" class="ToolTip" style="left: 10px">
+            <div id="areaInfo">标注：请悬浮在各省名字上查看销售服务热线！</div>
+           <!--  <div id="cityInfo"></div> -->
+        </div>
+        <div class="ToolTip" style="right: 50px;">
+            <!-- <div id="topList" style="width: 130px; float: left">
+            </div>
+            <div id="cityList" style="display: none; float: left">
+            </div> -->
+             <div id="content" style="width: 230px; float: left">
+               <h1>长沙</h1>
+               <span>公司统一服务电话：400-877-6872<br/>联系人：林先生<br/>地址：长沙市天心区解放西路197号万达购物广场4层</span>
+               <img alt="" src="/css/img/cangtou.png" class="person-img">
+            </div>
+        </div>
+    </div>
+</body>
+</html>

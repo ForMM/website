@@ -41,8 +41,7 @@
                <ol class="carousel-indicators">
                    <li data-target="#indexCarousel" data-slide-to="0" class="active"></li>
                    <li data-target="#indexCarousel" data-slide-to="1"></li>
-                   <li data-target="#indexCarousel" data-slide-to="2"></li>
-                   <li data-target="#indexCarousel" data-slide-to="3"></li>
+                   <li data-target="#indexCarousel" data-slide-to="2"></li>                  
                </ol>
                <div class="carousel-inner" role="listbox">
                    <div class="item active banner-one">    
@@ -57,10 +56,7 @@
                    </div>
                    <div class="item banner-three"> 
                    		<img alt="" class="carousel-inner img-responsive img-rounded" src="css/img/banner-three.jpg">                                    
-                   </div>
-                   <div class="item banner-four">    
-                   		<img alt="" class="carousel-inner img-responsive img-rounded" src="css/img/banner-four.jpg">                                 
-                   </div>
+                   </div>                 
                </div>
                <a class="left carousel-control" href="#indexCarousel" role="button" data-slide="prev">
                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
@@ -121,6 +117,17 @@
 				            </div>
 				        </div>
                     </div>                  
+                </div>
+            </div>
+        </div>
+
+		<div class="section section-anlie">
+		  	<div class="channel-title"><span>销售区域</span><a href="#">更多</a></div>
+            <div class="container">
+                <div class="row">
+                	<div class="col-xs-12 col-md-12">                		
+                        <iframe src="/scripts/common/jquery-chinamap/demo.html" class="chinamap" frameborder="0"></iframe>
+                    </div>                                     
                 </div>
             </div>
         </div>

@@ -161,6 +161,14 @@
     clear: both
 }
 
+.section-anlie{
+	width: 100%;
+	height:560px;
+    margin-bottom: 10px;
+    background:#fff;
+    clear: both
+}
+
 .pro {
     width: 100%;   
     overflow: hidden;
@@ -199,4 +207,9 @@
 
 .table .hover span {
     background: #005bac
+}
+
+.chinamap{
+	width:100%;
+	height:560px;
 }
