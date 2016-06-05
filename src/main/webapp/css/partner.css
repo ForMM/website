@@ -1,8 +1,15 @@
 .partner{
 	/* background:#7AF76C; */
+	background:url("../../css/img/background.jpg");
 }
 .content-img{
 	margin:100px auto;
+}
+
+.content-img img:hover{
+	-moz-box-shadow:10px 10px 7px #777;
+	-webkit-box-shadow:10px 10px 7px #777;
+	box-shadow:10px 10px 7px #777;
 }
 .logo-div{
 	margin-top:20px;

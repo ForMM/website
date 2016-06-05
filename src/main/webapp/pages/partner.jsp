@@ -48,7 +48,7 @@
 		
 		  -->
 		<div class="container content-img" >
-			<div class="row" id="partnr-logo">
+			<div class="row" >
 			
 				<div class="col-xs-4 col-md-4 logo-div" style="text-align:center;">
 					<img src="../../css/img/partner1.jpg" width="80%" height="150px"/>		
@@ -62,7 +62,7 @@
 			
 			</div>
 			
-			<div class="row" id="partnr-logo">
+			<div class="row" >
 			
 				<div class="col-xs-4 col-md-4 logo-div" style="text-align:center;">
 					<img src="../../css/img/partner4.jpg" width="80%" height="150px"/>		
@@ -76,7 +76,7 @@
 			
 			</div>
 			
-			<div class="row" id="partnr-logo">
+			<div class="row">
 			
 					
 				<div class="col-xs-4 col-md-4 logo-div" style="text-align:center;">
