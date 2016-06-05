@@ -140,27 +140,27 @@
 		                <tr>
 		
 		                    <td>
-		                        <div class="pro-pic"><a href="productViewAsp?ID=1&SortID=3"><img src="../../css/img/anlie-1.jpg" width="235" height="185" /></a><span>明星产品</span></div>
+		                        <div class="pro-pic"><a href="#"><img src="../../css/img/anlie-1.png" width="235" height="185" /></a><span>明星产品</span></div>
 		                    </td>
 		
 		                    <td>
-		                        <div class="pro-pic"><a href="productViewAsp?ID=6&SortID=3"><img src="../../css/img/anlie-2.jpg" width="235" height="185" /></a><span>店长推荐</span></div>
+		                        <div class="pro-pic"><a href="#"><img src="../../css/img/anlie-2.png" width="235" height="185" /></a><span>店长推荐</span></div>
 		                    </td>
 		
 		                    <td>
-		                        <div class="pro-pic"><a href="productViewAsp?ID=7&SortID=3"><img src="../../css/img/anlie-3.jpg" width="235" height="185" /></a><span>环保硬质发泡型材、发泡板材、发泡片材稳定剂</span></div>
+		                        <div class="pro-pic"><a href="#"><img src="../../css/img/anlie-3.png" width="235" height="185" /></a><span>环保硬质发泡型材、发泡板材、发泡片材稳定剂</span></div>
 		                    </td>
 		
 		                    <td>
-		                        <div class="pro-pic"><a href="productViewAsp?ID=8&SortID=3"><img src="../../css/img/anlie-4.jpg" width="235" height="185" /></a><span>环保硬质发泡型材、发泡板材、发泡片材稳定剂</span></div>
+		                        <div class="pro-pic"><a href="#"><img src="../../css/img/anlie-4.png" width="235" height="185" /></a><span>环保硬质发泡型材、发泡板材、发泡片材稳定剂</span></div>
 		                    </td>
 		
 		                    <td>
-		                        <div class="pro-pic"><a href="productViewAsp?ID=9&SortID=3"><img src="../../css/img/anlie-5.jpg" width="235" height="185" /></a><span>环保硬质发泡型材、发泡板材、发泡片材稳定剂</span></div>
+		                        <div class="pro-pic"><a href="#"><img src="../../css/img/anlie-5.png" width="235" height="185" /></a><span>环保硬质发泡型材、发泡板材、发泡片材稳定剂</span></div>
 		                    </td>
 		
 		                    <td>
-		                        <div class="pro-pic"><a href="productViewAsp?ID=10&SortID=3"><img src="../../css/img/anlie-6.jpg" width="235" height="185" /></a><span>环保硬质发泡型材、发泡板材、发泡片材稳定剂</span></div>
+		                        <div class="pro-pic"><a href="#"><img src="../../css/img/anlie-6.png" width="235" height="185" /></a><span>环保硬质发泡型材、发泡板材、发泡片材稳定剂</span></div>
 		                    </td>
 		
 		                </tr>
@@ -169,27 +169,27 @@
 		                <tr>
 		
 		                    <td>
-		                        <div class="pro-pic"><a href="productViewAsp?ID=15&SortID=5"><img src="../../css/img/anlie-6.jpg" width="235" height="185" /></a><span>环保硬质发泡型材、发泡板材、发泡片材稳定剂</span></div>
+		                        <div class="pro-pic"><a href="#"><img src="../../css/img/anlie-7.png" width="235" height="185" /></a><span>环保硬质发泡型材、发泡板材、发泡片材稳定剂</span></div>
 		                    </td>
 		
 		                    <td>
-		                        <div class="pro-pic"><a href="productViewAsp?ID=16&SortID=5"><img src="../../css/img/anlie-6.jpg" width="235" height="185" /></a><span>环保硬质注塑管件稳定剂</span></div>
+		                        <div class="pro-pic"><a href="#"><img src="../../css/img/anlie-8.png" width="235" height="185" /></a><span>环保硬质注塑管件稳定剂</span></div>
 		                    </td>
 		
 		                    <td>
-		                        <div class="pro-pic"><a href="productViewAsp?ID=17&SortID=5"><img src="../../css/img/anlie-6.jpg" width="235" height="185" /></a><span>环保深色及黑色电线电缆料稳定剂</span></div>
+		                        <div class="pro-pic"><a href="#"><img src="../../css/img/anlie-9.png" width="235" height="185" /></a><span>环保深色及黑色电线电缆料稳定剂</span></div>
 		                    </td>
 		
 		                    <td>
-		                        <div class="pro-pic"><a href="productViewAsp?ID=18&SortID=5"><img src="../../css/img/anlie-6.jpg" width="235" height="185" /></a><span>环保白色及浅色电线电缆料稳定剂</span></div>
+		                        <div class="pro-pic"><a href="#"><img src="../../css/img/anlie-10.png" width="235" height="185" /></a><span>环保白色及浅色电线电缆料稳定剂</span></div>
 		                    </td>
 		
 		                    <td>
-		                        <div class="pro-pic"><a href="productViewAsp?ID=19&SortID=5"><img src="../../css/img/anlie-7.jpg" width="235" height="185" /></a><span>环保硬质门窗型材稳定剂</span></div>
+		                        <div class="pro-pic"><a href="#"><img src="../../css/img/anlie-11.png" width="235" height="185" /></a><span>环保硬质门窗型材稳定剂</span></div>
 		                    </td>
 		
 		                    <td>
-		                        <div class="pro-pic"><a href="productViewAsp?ID=20&SortID=5"><img src="../../css/img/anlie-8.jpg" width="235" height="185" /></a><span>环保硬质管材、板材、异型材稳定剂</span></div>
+		                        <div class="pro-pic"><a href="#"><img src="../../css/img/anlie-12.png" width="235" height="185" /></a><span>环保硬质管材、板材、异型材稳定剂</span></div>
 		                    </td>
 		
 		                </tr>
