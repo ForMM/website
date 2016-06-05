@@ -14,7 +14,7 @@
             	<div class="row">            	
             		<div class="col-sm-2 col-md-2 nav-left">
             			<a href="/" class="logo-nav" style="float:right;" title="也娜美缝剂">
-            				<img alt="logo" src="/css/img/logo.png" style="margin-top:13px;padding:0;width:128px;height:27px;"/>
+            				<img alt="logo" src="/css/img/logo.png" style="margin-top:0;padding:0;width:128px;height:67px;"/>
             			</a>
             		</div>
             		<div class="col-sm-10 col-md-10 nav-bar">

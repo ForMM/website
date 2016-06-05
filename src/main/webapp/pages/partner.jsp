@@ -32,7 +32,7 @@
 <body class="partner">
     <jsp:include page="/pages/navigation.jsp"/>		
     <div>
-		<div class="container content-img" >
+		<!--<div class="container content-img" >
 			<div class="row" id="partnr-logo"></div>
 		
 		</div>
@@ -45,12 +45,54 @@
 					         		
 				{{/each}}
 		</script> 	
+		
+		  -->
+		<div class="container content-img" >
+			<div class="row" id="partnr-logo">
+			
+				<div class="col-xs-4 col-md-4 logo-div" style="text-align:center;">
+					<img src="../../css/img/partner1.jpg" width="80%" height="150px"/>		
+				</div>		
+				<div class="col-xs-4 col-md-4 logo-div" style="text-align:center;">
+					<img src="../../css/img/partner2.jpg" width="80%" height="150px"/>		
+				</div>	
+				<div class="col-xs-4 col-md-4 logo-div" style="text-align:center;">
+					<img src="../../css/img/partner3.jpg" width="80%" height="150px"/>		
+				</div>			
+			
+			</div>
+			
+			<div class="row" id="partnr-logo">
+			
+				<div class="col-xs-4 col-md-4 logo-div" style="text-align:center;">
+					<img src="../../css/img/partner4.jpg" width="80%" height="150px"/>		
+				</div>		
+				<div class="col-xs-4 col-md-4 logo-div" style="text-align:center;">
+					<img src="../../css/img/partner5.jpg" width="80%" height="150px"/>		
+				</div>	
+				<div class="col-xs-4 col-md-4 logo-div" style="text-align:center;">
+					<img src="../../css/img/partner6.jpg" width="80%" height="150px"/>		
+				</div>			
+			
+			</div>
+			
+			<div class="row" id="partnr-logo">
+			
+					
+				<div class="col-xs-4 col-md-4 logo-div" style="text-align:center;">
+					<img src="../../css/img/partner8.jpg" width="80%" height="150px"/>		
+				</div>	
+					
+			
+			</div>
+		
+		</div>
 			
 		
 	</div>	
 
 	<script type="text/javascript" src="/scripts/common/jquery.tmpl.min.js"></script> 
 	<script type="text/javascript" src="/scripts/common/jquery.tmplPlus.min.js"></script>
-	<script type="text/javascript" src="/scripts/partner.js"></script>
+	<!-- <script type="text/javascript" src="/scripts/partner.js"></script> -->
 	<jsp:include page="/pages/footer.jsp" flush="true" />
 </body>
