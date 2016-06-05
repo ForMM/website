@@ -31,24 +31,25 @@
 				                    <li><a href="../pages/organization.jsp"><i class="icon-group"></i>施工部管理层</a></li>
 							    </ul>
 							</li>
-				                    		                  
-		                    <li role="presentation" class="dropdown">
+				                   				    
+				            <li role="presentation" class="dropdown">
 							    <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="menu" aria-haspopup="true" aria-expanded="false">
-							       	产品展厅<span class="caret"></span>
+							       		产品展厅<span class="caret"></span>
 							    </a>
 							    <ul class="dropdown-menu dropdown-menu-custom">
-							       <li><a href="/startups"><i class="icon-file"></i>美缝产品</a></li>
-				                   <li><a href="/crowds" target="_blank"><i class="icon-group"></i>美缝工具</a></li>				                     
+							       <li><a href="../pages/product.jsp"><i class="icon-file"></i>美缝产品</a></li>
+				                   <li><a href="../pages/tools.jsp" ><i class="icon-group"></i>美缝工具</a></li>	
 							    </ul>
-							</li>                  
+							</li>
+				                        
 		                   	<li><a href="../pages/partner.jsp">合作伙伴</a></li> 
 		                   	<li role="presentation" class="dropdown">
 							    <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="menu" aria-haspopup="true" aria-expanded="false">
 							       	美缝案例<span class="caret"></span>
 							    </a>
 							    <ul class="dropdown-menu dropdown-menu-custom">
-							       <li><a href="/startups"><i class="icon-file"></i>家装</a></li>
-				                   <li><a href="/crowds" target="_blank"><i class="icon-group"></i>工程装</a></li>				                     
+							       <li><a href="../pages/tools.jsp"><i class="icon-file"></i>家装</a></li>
+				                   <li><a href="../pages/tools.jsp"><i class="icon-group"></i>工程装</a></li>				                     
 							    </ul>
 							</li>        		                               
 		                    <li><a href="../pages/news.jsp">企业动态</a></li>   		                    
