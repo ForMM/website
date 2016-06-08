@@ -32,6 +32,7 @@
     
     <script src="../../scripts/index.js"></script>
     <script src="../../scripts/indexproduct.js"></script>
+     
 </head>
 <body class="index">
  <jsp:include page="/pages/navigation.jsp"/>	 
@@ -43,6 +44,8 @@
                    <li data-target="#indexCarousel" data-slide-to="1"></li>
                    <li data-target="#indexCarousel" data-slide-to="2"></li>                  
                </ol>
+               <div class="effectShow" id="effectShow" style="position:absolute; top:0px; left:10px; z-index:1;"><object id="effectShow_swf" type="application/x-shockwave-flash" data="http://0.ss.faisys.com/image/site/effects/58.swf?083db28f5a66e3a2ea54d4a75b5776e1" width="960" height="380"><param name="movie" value="http://0.ss.faisys.com/image/site/effects/58.swf?083db28f5a66e3a2ea54d4a75b5776e1"><param name="quality" value="high"><param name="flashvars" value="text1=&amp;text2=&amp;size1=undefined&amp;size2=undefined&amp;color1=0x000&amp;color2=0xFFFFFF&amp;style1=undefined&amp;style2=undefined"><param name="wmode" value="transparent"><embed name="effectShow_swf" pluginspage="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash" type="application/x-shockwave-flash" classid="clsid:d27cdb6e-ae6d-11cf-96b8-4445535400000" id="effectFlash" src="http://0.ss.faisys.com/image/site/effects/58.swf?083db28f5a66e3a2ea54d4a75b5776e1" wmode="transparent" quality="high" menu="false" play="true" loop="true" width="960" height="380" flashvars="text1=&amp;text2=&amp;size1=undefined&amp;size2=undefined&amp;color1=0x000&amp;color2=0xFFFFFF&amp;style1=undefined&amp;style2=undefined"></object></div>
+               
                <div class="carousel-inner" role="listbox">
                    <div class="item active banner-one">    
                    		<img alt="" class="carousel-inner img-responsive img-rounded" src="../../css/img/banner-one.png">                   

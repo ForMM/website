@@ -376,12 +376,12 @@
 			<artifactId>dom4j</artifactId>
 			<version>1.6.1</version>
 		</dependency>
-		
+		<!-- 
 		<dependency>
 		  <groupId>emchat</groupId>
   <artifactId>emchatid</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-		</dependency>
+		</dependency> -->
 		<!-- xml 解析 jar -->		
 		<!-- excel 文件导入 jar-->		
 		<!-- <dependency>

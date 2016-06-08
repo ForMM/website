@@ -27,7 +27,7 @@ body .fixed {
  .fixed li a{
  	font-family:"微软雅黑",Georgia,Serif;
 	font-size:22px;
-	color:#ffffff;
+	color:#000000;
 	font-weight:bold;	
 }
 
@@ -38,7 +38,7 @@ body .fixed {
 	text-align:center;
 }
 #header{
-	background-color:#0094FC;
+	background-color:#DFDFDF;
 	
 }
 
