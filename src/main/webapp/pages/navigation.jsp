@@ -48,8 +48,8 @@
 							       	美缝案例<span class="caret"></span>
 							    </a>
 							    <ul class="dropdown-menu dropdown-menu-custom">
-							       <li><a href="../pages/tools.jsp"><i class="icon-file"></i>家装</a></li>
-				                   <li><a href="../pages/tools.jsp"><i class="icon-group"></i>工程装</a></li>				                     
+							       <li><a href="../pages/decoration.jsp"><i class="icon-file"></i>家装</a></li>
+				                   <li><a href="../pages/decoration.jsp"><i class="icon-group"></i>工程装</a></li>				                     
 							    </ul>
 							</li>        		                               
 		                    <li><a href="../pages/news.jsp">企业动态</a></li>   		                    

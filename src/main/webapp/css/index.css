@@ -1,6 +1,6 @@
 .section-intro{
 	margin:20px auto;
-	background:#fff;
+	background:#AAAAAA;
 }
 
 .news-con{
@@ -42,26 +42,26 @@
 }
 
 .news-link li.hover .news-date span {
-    color: #fff
+    color: #AAAAAA
 }
 
 .news-link li.hover .news-date strong {
-    color: #fff
+    color: #AAAAAA
 }
 
 .news-link li.hover .news-item {
-    color: #fff
+    color: #AAAAAA
 }
 
 .news-link li.hover .news-item a:hover {
-    color: #fff
+    color: #AAAAAA
 }
 
 
 .channel-title {
     height: 35px;
     line-height: 35px;
-    border-bottom: 1px solid #e6e6e6;
+   /*  border-bottom: 1px solid #e6e6e6; */
     margin-bottom: 15px;
 }
 
@@ -157,7 +157,7 @@
 .section-product {
     width: 100%;
     margin-bottom: 10px;
-    background:#fff;
+    background:#AAAAAA;
     clear: both
 }
 
@@ -165,7 +165,7 @@
 	width: 100%;
 	height:560px;
     margin-bottom: 10px;
-    background:#fff;
+    background:#AAAAAA;
     clear: both
 }
 
@@ -197,7 +197,7 @@
     line-height: 33px;
     text-align: center;
     display: block;
-    color: #fff;
+    color: #AAAAAA;
     background: #676767;
     position: absolute;
     left: 0;
@@ -212,4 +212,20 @@
 .chinamap{
 	width:100%;
 	height:560px;
+}
+
+.effectShow{
+	position:absolute; 
+	top:120px; 
+	left:280px; 
+	z-index:1;
+}
+
+#imgCom{
+	margin-top:90px;
+	background:#AAAAAA; border-right:2px solid #AAA; border-left:2px solid #AAA; 
+}
+#slider{
+	/* border:1px solid red; */
+	
 }

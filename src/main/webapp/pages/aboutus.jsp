@@ -35,7 +35,7 @@
 		<div class="container content-img">
 			<div class="row">
 				<div class="col-xs-12 col-md-12" style="text-align:center;">
-					<img class="banner-img" src="../../css/img/banner1-aboutus.jpg"/>					
+					<img class="banner-img" src="../../css/img/banner-aboutus.png"/>					
 				</div>			  
 			</div>	
 		</div>		
@@ -43,17 +43,17 @@
 	<div>
 		<div class="container content">
 			<div class="row">
-				<div class="col-xs-3 col-md-3" style="text-align:center;">				
-					<img class="banner-img" src="../../css/img/left-contact.jpg"/>	 		
+				<div class="col-xs-2 col-md-2" style="text-align:center;">				
+					<img class="banner-contact" src="../../css/img/left-contact.png"/>	 		
 				</div>	
-				<div class="col-xs-9 col-md-9 contact-div" >
+				<div class="col-xs-10 col-md-10 contact-div" >
 					<div>
-						<h1>也娜运营中心</h1>
-						<h3>电话：400-807-9557</h3> 
+						<h1>湖南龙锦建材商贸有限公司</h1>
+						<h3>电话：400-618-6047</h3> 
 						<h3>传真：010-87653982</h3> 
-						<h3>E-mail: bosh1705@sina.com</h3> 
-						<h3>网址：www.bjbosh.com</h3> 
-						<h3>地址：北京市大兴区亦庄工业园12栋B</h3> 	
+						<h3>E-mail: 985565585@qq.com</h3> 
+						<h3>网址：www.yenamf.com</h3> 
+						<h3>地址：长沙经济开发区东六线西、盼盼路南未来蜂巢1栋409</h3> 	
 					</div>		
 					<div>
 						<img class="qr-code" src="../../css/img/qr-code.png"/>	 
@@ -70,13 +70,13 @@
 				var point = new BMap.Point(113.004549,28.139983);
 				map.centerAndZoom(point, 15);  // 初始化地图,设置中心点坐标和地图级别
 				
-				var sContent ="<h3>也娜环保科技有限公司</h3><span>联系人：林先生 18664556413</span>";
+				var sContent ="<h3>湖南龙锦建材商贸有限公司</h3><span>联系人：范经理 17707336067</span>";
 				var infoWindow = new BMap.InfoWindow(sContent);  // 创建信息窗口对象
 				map.openInfoWindow(infoWindow,point); //开启信息窗口
 				
 				
 				map.addControl(new BMap.MapTypeControl());   //添加地图类型控件
-				map.setCurrentCity("北京");          // 设置地图显示的城市 此项是必须设置的
+				map.setCurrentCity("长沙");          // 设置地图显示的城市 此项是必须设置的
 				map.enableScrollWheelZoom(true);     //开启鼠标滚轮缩放
 			</script>
 		</div>		

@@ -35,7 +35,7 @@
 		<div class="container content-img">
 			<div class="row">
 				<div class="col-xs-12 col-md-12" style="text-align:center;">
-					<img class="banner-img" src="../../css/img/banner1-aboutus.jpg"/>					
+					<img class="banner-img" src="../../css/img/banner-news.png"/>					
 				</div>			  
 			</div>	
 		</div>		

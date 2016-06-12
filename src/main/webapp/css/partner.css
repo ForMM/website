@@ -17,3 +17,27 @@
 .footer{
 	position:fixed;
 }
+.img-big{	
+    height: 300px;
+    width: 0px;   
+    opacity: 0.8;
+    z-index: 10;
+    border:1px solid red;
+	margin:0 auto;
+  }
+      .white_content {
+            display: none;
+            position: absolute;
+            top: 50%;
+            margin-left: -300px;
+            left: 50%;
+            margin-top: -160px;
+            width: 600px;
+            height: 315px;
+            padding: 0px;
+            border: 0px solid orange;
+            background-color: #FFF;
+
+            z-index: 10001;
+            overflow: auto;
+        }

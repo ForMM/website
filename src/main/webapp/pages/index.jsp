@@ -16,6 +16,7 @@
     <link href="../../css/nav.css" rel="stylesheet" type="text/css"/> 
     <link href="../../css/index.css" rel="stylesheet" type="text/css"/> 
    	<link href="../../css/footer.css" rel="stylesheet" type="text/css"/>
+   	<link  href="../../scripts/common/themes/fourth/imageSlider.css" type="text/css" rel="stylesheet">
    	
    	<!--[if lt IE 9]>
 <script type="text/javascript" src="/scripts/common/html5.js"></script>
@@ -27,7 +28,7 @@
     <script src="../../scripts/common/jquery.easing.js"></script>
     <script src="../../scripts/common/bootstrap/js/bootstrap.min.js"></script>  
     <script src="../../scripts/common/jquery.slimsscroll.js"></script>
-    
+    <script src="../../scripts/common/themes/imageSlider.js"></script>
     
     
     <script src="../../scripts/index.js"></script>
@@ -38,13 +39,41 @@
  <jsp:include page="/pages/navigation.jsp"/>	 
  	<div class="container-fluid" id="main-content">
 		<div class="section section-home section-switch-banner">
-           <div id="indexCarousel" class="carousel slide" data-ride="carousel" data-interval="4000">
+		
+		
+		<div class="effectShow" id="effectShow">
+			<object id="effectShow_swf" type="application/x-shockwave-flash" data="http://0.ss.faisys.com/image/site/effects/58.swf?083db28f5a66e3a2ea54d4a75b5776e1" width="960" height="380"><param name="movie" value="http://0.ss.faisys.com/image/site/effects/58.swf?083db28f5a66e3a2ea54d4a75b5776e1"><param name="quality" value="high"><param name="flashvars" value="text1=&amp;text2=&amp;size1=undefined&amp;size2=undefined&amp;color1=0x000&amp;color2=0xFFFFFF&amp;style1=undefined&amp;style2=undefined"><param name="wmode" value="transparent"><embed name="effectShow_swf" pluginspage="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash" type="application/x-shockwave-flash" classid="clsid:d27cdb6e-ae6d-11cf-96b8-4445535400000" id="effectFlash" src="http://0.ss.faisys.com/image/site/effects/58.swf?083db28f5a66e3a2ea54d4a75b5776e1" wmode="transparent" quality="high" menu="false" play="true" loop="true" width="960" height="380" flashvars="text1=&amp;text2=&amp;size1=undefined&amp;size2=undefined&amp;color1=0x000&amp;color2=0xFFFFFF&amp;style1=undefined&amp;style2=undefined"></object>
+		</div>
+		<div id="imgCom">
+		    <div id="slider">
+		        <img src="../../css/img/banner-one.png"/>
+		        <img src="../../css/img/banner-two.png"/>
+		        <img src="../../css/img/banner-three.png"/>
+		        <!--<img src="../images/slider-4.jpg"/>-->
+		    </div>
+		    <!--Custom navigation buttons on both sides-->
+		    <div class="group1-Wrapper">
+		        <a onclick="imageSlider.previous()" class="group1-Prev"></a>
+		        <a onclick="imageSlider.next()" class="group1-Next"></a>
+		    </div>
+		    <!--nav bar-->
+		    <div style="text-align:center;padding:20px;z-index:20;">
+		        <a onclick="imageSlider.previous()" class="group2-Prev"></a>
+		        <a id='auto' onclick="switchAutoAdvance()"></a>
+		        <a onclick="imageSlider.next()" class="group2-Next"></a>
+		    </div>
+		</div>
+		
+		
+		
+		
+           <!-- <div id="indexCarousel" class="carousel slide" data-ride="carousel" data-interval="4000">
                <ol class="carousel-indicators">
                    <li data-target="#indexCarousel" data-slide-to="0" class="active"></li>
                    <li data-target="#indexCarousel" data-slide-to="1"></li>
                    <li data-target="#indexCarousel" data-slide-to="2"></li>                  
                </ol>
-               <div class="effectShow" id="effectShow" style="position:absolute; top:0px; left:10px; z-index:1;"><object id="effectShow_swf" type="application/x-shockwave-flash" data="http://0.ss.faisys.com/image/site/effects/58.swf?083db28f5a66e3a2ea54d4a75b5776e1" width="960" height="380"><param name="movie" value="http://0.ss.faisys.com/image/site/effects/58.swf?083db28f5a66e3a2ea54d4a75b5776e1"><param name="quality" value="high"><param name="flashvars" value="text1=&amp;text2=&amp;size1=undefined&amp;size2=undefined&amp;color1=0x000&amp;color2=0xFFFFFF&amp;style1=undefined&amp;style2=undefined"><param name="wmode" value="transparent"><embed name="effectShow_swf" pluginspage="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash" type="application/x-shockwave-flash" classid="clsid:d27cdb6e-ae6d-11cf-96b8-4445535400000" id="effectFlash" src="http://0.ss.faisys.com/image/site/effects/58.swf?083db28f5a66e3a2ea54d4a75b5776e1" wmode="transparent" quality="high" menu="false" play="true" loop="true" width="960" height="380" flashvars="text1=&amp;text2=&amp;size1=undefined&amp;size2=undefined&amp;color1=0x000&amp;color2=0xFFFFFF&amp;style1=undefined&amp;style2=undefined"></object></div>
+               
                
                <div class="carousel-inner" role="listbox">
                    <div class="item active banner-one">    
@@ -69,7 +98,7 @@
                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
                    <span class="sr-only">Next</span>
                </a>
-           </div>
+           </div> -->
         </div>
 
         <div class="section section-intro">
@@ -77,7 +106,7 @@
                 <div class="row">
                 	<div class="col-xs-7 col-md-7">
                         <div class="news">
-				            <div class="channel-title"><span>企业动态</span><a href="#">更多</a></div>
+				            <div class="channel-title"><span>企业荣誉</span><a href="#">更多</a></div>
 				            <div class="news-con">
 				
 				                <div class="news-pic">
@@ -85,24 +114,7 @@
 				                </div>
 				
 				                <div class="news-view">
-				                    <ul class="news-link">
-				
-				                        <li>
-				                            <div class="news-date"><span>22</span><strong>2015-05</strong></div>
-				                            <div class="news-item"><a href="NewsView.Asp?ID=26&SortID=2">2015也娜科技首季销售会议暨“真正..</a></div>
-				                        </li>
-				
-				                        <li>
-				                            <div class="news-date"><span>12</span><strong>2015-03</strong></div>
-				                            <div class="news-item"><a href="NewsView.Asp?ID=19&SortID=2">也娜办公室户外活动营..</a></div>
-				                        </li>
-				
-				                        <li>
-				                            <div class="news-date"><span>12</span><strong>2015-03</strong></div>
-				                            <div class="news-item"><a href="NewsView.Asp?ID=18&SortID=2">魏子斌总经理为家乡修桥铺路..</a></div>
-				                        </li>
-				
-				                    </ul>
+				                   
 				                </div>
 				            </div>
 				        </div>
@@ -199,6 +211,41 @@
 		            </table>
 		        </div>
 		        <script type="text/javascript">
+		        
+		        var sliderOptions =
+		        {
+		            sliderId: "slider",
+		            startSlide: 0,
+		            effect: "6,15,1,2,11,12,13,15,16,5,7",
+		            effectRandom: false,
+		            pauseTime: 2600,
+		            transitionTime: 500,
+		            slices: 14,
+		            boxes: 11,
+		            hoverPause: 2,
+		            autoAdvance: true,
+		            captionOpacity: 0.5,
+		            captionEffect: "rotate",
+		            thumbnailsWrapperId: null,
+		            m: true,
+		            license: "b6t80"
+		        };
+
+		        var imageSlider = new mcImgSlider(sliderOptions);
+
+		        function switchAutoAdvance() {
+		            imageSlider.switchAuto();
+		            switchPlayPauseClass();
+		        }
+		        function switchPlayPauseClass() {
+		            var auto = document.getElementById('auto');
+		            var isAutoPlay = imageSlider.getAuto();
+		            auto.className = isAutoPlay ? "group2-Pause" : "group2-Play";
+		            auto.title = isAutoPlay ? "Pause" : "Play";
+		        }
+		        switchPlayPauseClass();
+		        
+		        
 			        new Marquee({
 			            obj: 'MyMarqueeX',
 			            movePause: true

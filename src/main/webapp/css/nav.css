@@ -72,7 +72,7 @@ body .fixed {
 
 .dropdown-menu-custom {
     background-clip: padding-box;
-    background-color: #0094FC;
+    background-color: #DFDFDF;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
     display: none;
     float: left;
@@ -84,9 +84,10 @@ body .fixed {
     z-index: 1000;
 }
 .dropdown-menu-custom li a {
-    color: #fff;
+    color: #000000;
     display: block;
-    padding: 8px 7px;
+    padding: 6px 7px;
+    font-size:18px;
 }
 .dropdown-menu-custom li:hover {
    background-color: #75c8e6;

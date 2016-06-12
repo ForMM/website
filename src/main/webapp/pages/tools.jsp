@@ -32,6 +32,7 @@
 <body class="partner">
     <jsp:include page="/pages/navigation.jsp"/>		
     <div>
+		<!-- 
 		<div class="container content-img" >
 			<div class="row" id="partnr-logo"></div>
 		
@@ -44,13 +45,55 @@
 						</div>							
 					         		
 				{{/each}}
-		</script> 	
+		</script> 
+		 -->
+		 	
 			
+			<div class="container content-img" >
+			<div class="row" >
+			
+				<div class="col-xs-4 col-md-4 logo-div" style="text-align:center;">
+					<img src="../../css/img/banner-tool1.png" width="80%" height="150px"/>		
+				</div>		
+				<div class="col-xs-4 col-md-4 logo-div" style="text-align:center;">
+					<img src="../../css/img/banner-tool2.png" width="80%" height="150px"/>		
+				</div>	
+				<div class="col-xs-4 col-md-4 logo-div" style="text-align:center;">
+					<img src="../../css/img/banner-tool3.png" width="80%" height="150px"/>		
+				</div>			
+			
+			</div>
+			
+			<div class="row" >
+			
+				<div class="col-xs-4 col-md-4 logo-div" style="text-align:center;">
+					<img src="../../css/img/banner-tool4.png" width="80%" height="150px"/>		
+				</div>		
+				<div class="col-xs-4 col-md-4 logo-div" style="text-align:center;">
+					<img src="../../css/img/banner-tool5.png" width="80%" height="150px"/>		
+				</div>	
+				<div class="col-xs-4 col-md-4 logo-div" style="text-align:center;">
+					<img src="../../css/img/banner-tool1.png" width="80%" height="150px"/>		
+				</div>			
+			
+			</div>
+			
+			<div class="row">
+			
+					
+				<div class="col-xs-4 col-md-4 logo-div" style="text-align:center;">
+					<img src="../../css/img/banner-tool1.png" width="80%" height="150px"/>		
+				</div>	
+					
+			
+			</div>
+		
+		</div>
 		
 	</div>	
 
 	<script type="text/javascript" src="/scripts/common/jquery.tmpl.min.js"></script> 
 	<script type="text/javascript" src="/scripts/common/jquery.tmplPlus.min.js"></script>
-	<script type="text/javascript" src="/scripts/partner.js"></script>
+	<!-- <script type="text/javascript" src="/scripts/partner.js"></script> -->
 	<jsp:include page="/pages/footer.jsp" flush="true" />
 </body>

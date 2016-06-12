@@ -5,14 +5,28 @@
 	margin:100px auto;
 }
 .banner-img{
-	width:100%;
+	
+	/* width:100%; */
+}
+.banner-contact{
+	margin-top:-20px;
 }
 .contact-div{
 	padding-left:50px;
 }
 
+.contact-div h1,.contact-div h3{	
+	font-family:"Î¢ÈíÑÅºÚ",Georgia,Serif;
+	font-size:22px;
+	color:#000000;
+	font-weight:bold;	
+}
+
 .contact-div h1{	
-	font-weight:bold;
+	font-size:26px;
+}
+.contact-div h3{	
+	font-size:20px;
 }
 
 .contact-div div{
@@ -32,4 +46,9 @@
 	overflow: hidden;
 	margin:50px auto;
 	font-family:"Î¢ÈíÑÅºÚ";
+}
+
+.qr-code{
+	margin-top:10px;
+	height:250px;
 }
