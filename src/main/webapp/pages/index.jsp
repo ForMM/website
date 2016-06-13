@@ -20,6 +20,7 @@
    	
    	<!--[if lt IE 9]>
 <script type="text/javascript" src="/scripts/common/html5.js"></script>
+<script type="text/javascript" src="/scripts/common/html5shiv.js"></script>
 <script type="text/javascript" src="/scripts/common/bootstrap/js/respond.min.js"></script>
 <![endif]-->
    	
