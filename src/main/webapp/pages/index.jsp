@@ -19,10 +19,10 @@
    	<link  href="../../scripts/common/themes/fourth/imageSlider.css" type="text/css" rel="stylesheet">
    	
    	<!--[if lt IE 9]>
-<script type="text/javascript" src="/scripts/common/html5.js"></script>
-<script type="text/javascript" src="/scripts/common/html5shiv.js"></script>
-<script type="text/javascript" src="/scripts/common/bootstrap/js/respond.min.js"></script>
-<![endif]-->
+	<script type="text/javascript" src="/scripts/common/html5.js"></script>
+	<script type="text/javascript" src="/scripts/common/html5shiv.js"></script>
+	<script type="text/javascript" src="/scripts/common/respond.min.js"></script>
+	<![endif]-->
    	
    	
     <script src="../../scripts/common/jquery-1.11.1.min.js"></script>
