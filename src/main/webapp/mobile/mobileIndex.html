@@ -1,0 +1,380 @@
+  <!DOCTYPE html>
+  <html>
+  <head>
+      <meta charset="utf-8">
+      <meta name="viewport" id="viewport" content="width=device-width, initial-scale=1">
+      <title></title>
+      <link rel="stylesheet" href="jquery-mobile/jquery.mobile.structure-1.4.5.min.css">
+      <link rel="stylesheet" href="jquery-mobile/jquery.mobile-1.4.5.min.css">
+      <link rel="stylesheet" href="jquery-mobile/theme-classic.css">
+    <!--图片切换CSS-->
+      <link rel="stylesheet" href="jquery-mobile/lrtk.css">
+     
+      <script src="jquery-mobile/jquery.js"></script>
+      <script src="jquery-mobile/jquery.mobile-1.4.5.min.js"></script>
+      <script src="jquery-mobile/responsiveslides.min.js"></script>
+      <script src="jquery-mobile/slide.js"></script>
+    <!--图片切换插件-->
+      <script src="jquery-mobile/indexproduct.js"></script>
+     <!-- <script>
+          $(document).on("pageshow","#oneProductPage",function(event){
+              $('#productImg').attr('src','jquery-mobile/images/productImg/3.png');
+          });
+
+
+      </script>-->
+
+      <style>
+
+          html, body {
+              padding: 0;
+              margin: 1;
+          }
+  
+          .ui-mobile, .ui-mobile .ui-page {
+              min-height: 435px;
+          }
+  
+          body {
+      position: relative;
+      width: 100%;
+
+      font-family: sans-serif;
+          }
+  
+          .ui-content {
+              padding: 0;
+          }
+  
+          .img5 {
+              display: block;
+              width: 33.1%;
+              float: left;
+          }
+  
+          .img1 {
+              display: block;
+              width: 99%;
+              float: left;
+          }
+  
+          .slideBox {
+              width: 100%;
+              overflow: hidden;
+              position: relative;
+          }
+  
+          #page div .ui-grid-solo .ui-block-a ul li a p {
+              font-size: large;
+          }
+  
+          #navPanel.ui-panel {
+              width: 11em;
+          }
+  
+          .ui-panel-page-content-position-right.ui-panel-page-content-display-push {
+              margin-right: -100px;
+              width: auto;
+          }
+          .ui-panel-inner{
+              padding: 0em;
+          }
+          .ui-panel-animate.ui-panel-page-content-position-right{
+              /*left: 0px;*/
+          }
+          .ui-panel-display-overlay, .ui-panel-animate.ui-panel-position-right.ui-panel-display-push{
+              /*left: 200px;*/
+          }
+          /*自定义logo图标*/
+
+      </style>
+  </head>
+  
+  <body>
+  <div data-role="page" id="page" data-ajax="true">
+      <div data-role="header" data-theme="b" style="height: 44px" ><!--页头-->
+         <a href="#navPanel" data-theme="b"  data-icon="grid" class="ui-btn-right ">导航</a>
+
+      </div>
+      <!--页头内容-->
+      <div data-role="content" data-theme="c">
+        <div class=" ui-grid-a"><!--网格布局-->
+             <div class="ui-block-a" style="width:100%">
+                <div class="slide_container">
+                  <ul class="rslides" id="slider">
+                      <li>
+                          <img src="jquery-mobile/images/banner-one.jpg" alt="">
+                           <!--<p class="caption">标题1</p>-->
+                      </li>
+                      <li>
+                          <img src="jquery-mobile/images/banner-two.jpg" alt="">
+                          
+                      </li>
+                       <li>
+                          <img src="jquery-mobile/images/banner-three.png" alt="">
+                           
+                      </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="ui-block-a" style="width:100%">
+                  <div data-role="header" data-theme="b"><!--页头-->
+                      <h1>也美娜简介</h1>
+                      <a href="#pg_introduce" data-theme="b" data-icon="arrow-r" class="ui-btn-right"
+                         data-transition="flow">更多</a>
+                  </div>
+  
+              </div>
+              <div class="ui-block-a" style="width:100%">
+                 <h3 align="center">也娜瓷缝剂</h3>
+                  <h4>&nbsp&nbsp公司成立于2016年5月11日，是一家专业从事各类瓷缝剂产品研发、生产制造、销售实施于一体的公司。是建材装饰用品中的一头领头羊......</h4>
+
+              </div>
+              <div class="ui-block-a" style="width:100%">
+                  <div data-role="header" data-theme="b"><!--页头-->
+                      <h1>产品中心</h1>
+                      <a href="#pg_product" data-theme="b" data-icon="arrow-r" class="ui-btn-right"
+                         data-transition="flow">更多</a>
+                  </div>
+              </div>
+            
+            <div class="ui-block-a" style="width:100%">
+             <!--产品图片-->
+                <div data-role="content" data-theme="c"> <!--页尾-->
+                    <table width="100%" border="0">
+                        <tr>
+
+                            <td width="33.3%" align="center"><a href="#page3"><img src="jquery-mobile/images/productImg/1.png"
+                                                                                           width="80%" ></a></td>
+                            <td width="33.3%" align="center"><a href="#page3"><img src="jquery-mobile/images/productImg/2.png"
+                                                                                         width="80%" ></a></td>
+                            <td width="33.3%" align="center"><a href="#page3"><img src="jquery-mobile/images/productImg/3.png" width="80%"></a></td>
+
+                        </tr>
+                         <tr>
+
+                            <td width="33.3%" align="center"><a href="#page3"><img src="jquery-mobile/images/productImg/4.png"
+                                                                                           width="80%"></a></td>
+                            <td width="33.3%" align="center"><a href="#page3"><img src="jquery-mobile/images/productImg/5.png"
+                                                                                         width="80%"></a></td>
+                            <td width="33.3%" align="center"><a href="#page3"><img src="jquery-mobile/images/productImg/6.png" width="80%"></a></td>
+                        </tr>
+                    </table>
+
+                </div>
+            </div>
+            <div class="ui-block-a" style="width:100%">
+                  <div data-role="header" data-theme="b"><!--页头-->
+                      <h1>合作伙伴</h1>
+                      <a href="#pageNews" data-theme="b" data-icon="arrow-r" class="ui-btn-right" data-transition="flow">更多</a>
+                  </div>
+              </div>
+  
+              <div class="ui-block-a" style="width:100%; padding-top:17px; padding-right:8px"> <!--新闻条例-->
+                  <table width="100%" border="0">
+                      <tr>
+
+                          <td width="33.3%" align="center"><a href="#pageNews"><img src="jquery-mobile/images/partnerImg/1.JPG"
+                                                                                 width="100%" ></a></td>
+                          <td width="33.3%" align="center"><a href="#pageNews"><img src="jquery-mobile/images/partnerImg/3.JPG"
+                                                                                 width="100%" ></a></td>
+                          <td width="33.3%" align="center"><a href="#pageNews"><img src="jquery-mobile/images/partnerImg/3.JPG" width="100%"></a></td>
+
+                      </tr>
+                      <tr>
+
+                          <td width="33.3%" align="center"><a href="#pageNews"><img src="jquery-mobile/images/partnerImg/4.JPG"
+                                                                                 width="100%"></a></td>
+                          <td width="33.3%" align="center"><a href="#pageNews"><img src="jquery-mobile/images/partnerImg/3.JPG"
+                                                                                 width="100%"></a></td>
+                          <td width="33.3%" align="center"><a href="#pageNews"><img src="jquery-mobile/images/partnerImg/6.JPG" width="100%"></a></td>
+                      </tr>
+                  </table>
+              </div>
+              <!--联系我们-->
+  
+              <div class="ui-block-a" style="width:100%">
+                  <div data-role="header" data-theme="b" style="margin-top:1em"><!--页头-->
+                      <h1>联系我们</h1>
+                      <a href="#page4" data-theme="b" data-icon="arrow-r" class="ui-btn-right"
+                         data-transition="flow">更多</a>
+                  </div>
+                 
+                  <div data-role="fieldcontain">
+                      <textarea name="textarea" rows="3" readonly id="textarea" style="width:100%">电话：400-618-6047
+地址：长沙市盼盼路未来蜂巢
+邮箱：985565585@qq.com</textarea>
+                  </div>
+              </div>
+  
+          </div>
+          <!--ui-grid-soloDIV结束-->
+      </div>
+      <!--主体内容-->
+      <!--内容DIV结束-->
+      <div data-role="footer" data-theme="b" > <!--页尾-->
+          <table width="100%" border="0">
+              <tr>
+                  <td width="25%" align="center"><a href="tel:400-618-6047"><img src="jquery-mobile/images/phone.jpg"
+                                                                                 width="50%" title="电话"></a></td>
+                  <td width="25%" align="center"><a href="sms:17707336067"><img src="jquery-mobile/images/message.jpg"
+                                                                         width="50%" title="信息"></a></td>
+                  <td width="25%" align="center"><a href="#pageMap"><img src="jquery-mobile/images/map.jpg" width="50%"
+                                                                         title="地图"></a></td>
+                  <td width="25%" align="center"><img src="jquery-mobile/images/share.jpg" width="50%" title="分享"></td>
+  
+              </tr>
+          </table>
+      </div>
+      <!--尾部内容结束-->
+      <!-- defaultpanel  -->
+      <div data-role="panel" id="navPanel" data-theme="c" data-position="right" data-display="push">
+          <div data-role="navbar" >
+              <ul>
+                  <li><a  data-theme="b" href="#pg_introduce" data-icon="home" data-transition="flow">也娜简介</a></li>
+              </ul>
+              <ul>
+                  <li><a  data-theme="b" href="#pageNews" data-icon="grid"  data-transition="flow">新闻中心</a></li>
+              </ul>
+              <ul>
+                  <li><a  data-theme="b" href="#pg_product" data-icon="grid"  data-transition="flow">也娜产品</a></li>
+              </ul>
+              <ul>
+                  <li><a href="61.html" data-icon="grid" data-theme="b" data-transition="flow">联系我们</a></li>
+              </ul>
+          </div>
+          <!-- /navbar -->
+      </div>
+      <!--panel结束-->
+  </div>
+  <!--page结束-->
+  <!--第二页内容
+  也美娜介绍页面-->
+  <div data-role="page" id="pg_introduce" data-theme="b">
+      <div data-role="header" data-theme="b">
+          <h1>也美娜简介</h1>
+          <a href="#page" data-role="button" data-icon="arrow-l" class="ui-btn-left" data-direction="reverse"
+             data-transition="flow">返回</a>
+      </div>
+      <div data-role="content" data-theme="c" >
+          <img src="jquery-mobile/images/duty.jpg" style="width: 100%">
+          <h2 align="center">湖南龙锦建材商贸有限公司旗下品牌也娜瓷缝剂</h2>
+          <h4>&nbsp&nbsp湖南龙锦建材商贸有限公司坐落于湖南星城长沙,交通便利，商贾云集、人气旺盛、餐饮兴隆、市场繁荣。</h4>
+          <h3 align="center">服务范围</h3>
+          <h4>&nbsp&nbsp公司成立于2009年3月24日，是一家专业从事瓷缝剂产品研发、生产制造、销售实施于一体的公司。是建材装饰用品中的一头领头羊，以对于细节和品质近乎痴迷的追求，通过精选材料、深化设计、高品质服务，摆脱了同行的低价竞争。公司拥有一支强大的技术研发队伍与以诚信为本的行为理念共同成就了也娜在众多同行中无法撼动的地位。遥遥领先的市场占有率获得市场和同行的双重认可和尊重！</h4>
+          <h3 align="center">发展目标</h3>
+          <h4>&nbsp&nbsp一步一个脚印，使企业能更好的适应市场的变化，避免发展中的大起大落，实现企业可持续健康发展。以“为员工创造平台，为客户创造价值，为城市创造美丽，为社会创造财富”为使命成就专业让员工成为专业行家，让公司成为行业专家！</h4>
+          <h3 align="center">企业理念</h3>
+          <h4>&nbsp&nbsp“真诚、善意、精致、完美”的核心价值观！ 以“为员工创造平台，为客户创造价值，为城市创造美丽，为社会创造财富！ 使命成就专业让员工成为专业行家，让公司成为行业专家！</h4>
+      </div>
+      <div data-role="footer" data-theme="b" >
+          <h1>联系热线：400-618-6047</h1>
+      </div>
+  </div>
+  <!--产品介绍页面-->
+  <div data-role="page" id="pg_product" data-theme="c">
+      <div data-role="header" data-theme="b">
+          <a href="#page" data-role="button" data-icon="arrow-l" class="ui-btn-left" data-direction="reverse"
+             data-transition="flow">返回</a>
+          <h1>产品介绍</h1>
+      </div>
+      <div data-role="content" data-theme="c">
+          <table width="100%"   border="0" >
+              <tr>
+                  <td align="center"><a href="#" data-role="button" data-icon="arrow-l" data-iconpos="notext">按钮</a></td>
+                  <td width="80%"> <ul data-role="listview" data-inset="true" id="product-view">
+              <li><a href="#oneProductPage"><img id="img11" src="jquery-mobile/images/productImg/6.png" height="100%" > 一号瓷缝胶</a></li>
+              <li><a href="#oneProductPage"><img src="jquery-mobile/images/productImg/1.png" height="100%">二号瓷缝胶</a></li>
+              <li><a href="#oneProductPage"><img src="jquery-mobile/images/productImg/2.png" height="100%">三号瓷缝胶</a></li>
+              <li><a href="#oneProductPage"><img src="jquery-mobile/images/productImg/3.png" height="100%"> 四号瓷缝胶</a></li>
+              <li><a href="#oneProductPage"><img src="jquery-mobile/images/productImg/4.png" height="100%">五号瓷缝胶</a></li>
+              <li><a href="#oneProductPage"><img src="jquery-mobile/images/productImg/5.png" height="100%">六号瓷缝胶</a></li>
+               </ul>
+               </td>
+              <td align="center"><a href="#" data-role="button" data-icon="arrow-r" data-iconpos="notext">按钮</a></td>
+           </tr>
+        </table>
+     </div><!--content end-->
+
+
+      <script>
+
+          $("#product-view").find("li").click(function(){
+              $("#productImg").attr("src",($(this).find("img").attr("src")));
+          });
+
+      </script>
+
+
+
+      <div data-role="footer" data-theme="b">
+          <h1>
+              第（1/1）页
+          </h1>
+      </div>
+  </div>
+  <!--产品单独展示页面-->
+  <div data-role="page" id="oneProductPage">
+      <div data-role="header" data-theme="b">
+          <h1><a href="#pg_product" data-role="button" data-icon="arrow-l" class="ui-btn-left" data-direction="reverse"
+                 data-transition="flow">返回</a>
+              详细信息
+          </h1>
+      </div>
+      <div data-role="content" data-theme="c">
+          <img src="" width="100%" id="productImg">
+      </div>
+      <div data-role="footer" data-theme="b">
+          <h1>联系热线：400-618-6047</h1>
+      </div>
+  </div>
+  <!--新闻中心页面-->
+  <div data-role="page" id="pageNews">
+      <div data-role="header" data-theme="b">
+          <a href="#page" data-role="button" data-icon="arrow-l" class="ui-btn-left" data-direction="reverse"
+             data-transition="flow">返回</a>
+          <h1>合作伙伴</h1>
+      </div>
+      <div data-role="content" data-theme="c"  style="width: 100%">
+          <table width="100%" border="0">
+              <tr>
+
+                  <td width="10%" align="center"><a href="#" data-role="button" data-icon="arrow-l" data-iconpos="notext">按钮</a></td>
+                  <td width="80%" align="center">
+                      <ul data-role="listview" data-inset="true" >
+                      <li><a href="">热烈祝贺也娜美<p>&nbsp;&nbsp;新闻内容.</p></a></li>
+                      <li><a href=""><h1>热烈祝贺也娜美缝剂被</h1><p>&nbsp;&nbsp;新闻内容...</p></a></li>
+                      <li><a href=""><h1>你还在犹豫什么，选择也娜美缝剂</h1><p>&nbsp;&nbsp;新闻内容...</p></a></li>
+                      <li><a href=""><h1>也娜新闻标题4</h1><p>&nbsp;&nbsp;新闻内容...</p></a></li>
+                      <li><a href=""><h1>也娜新闻标题5</h1><p>&nbsp;&nbsp;新闻内容...</p></a></li>
+                       </ul>
+                  </td>
+                  <td width="10%" align="center"><a href="#" data-role="button" data-icon="arrow-r" data-iconpos="notext">按钮</a></td>
+
+              </tr>
+          </table>
+      </div><!--content end-->
+      <div data-role="footer" data-theme="b">
+          <h1>
+              第（1/1）页
+          </h1>
+      </div>
+  </div>
+  <!--地图页面-->
+  <div data-role="page" id="pageMap" data-theme="c">
+      <div data-role="header" data-theme="b">
+          <h1><a href="#page" data-role="button" data-icon="arrow-l" class="ui-btn-left" data-direction="reverse"
+                 data-transition="flow">返回</a>
+              也娜位置
+          </h1>
+      </div>
+      <div data-role="content" >
+          <!--<iframe src="map.html" width="90%" height="90%" frameborder="0" scrolling="no"></iframe>-->
+          <iframe  src="http://api.map.baidu.com/staticimage?width=400&height=300&center=113.098879,28.21864&zoom=14&markers=113.091261,28.223733&markerStyles=l" width="100%" height="300px" frameborder="0" scrolling="no"></iframe>
+      </div>
+      <div data-role="footer" data-theme="b" style="margin-top: 0">
+          <h1>联系热线：400-618-6047</h1>
+      </div>
+  </div>
+  </body>
+  </html>

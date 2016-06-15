@@ -32,7 +32,7 @@
      if (system.win || system.mac || system.xll||system.ipad) { 
     	 window.location.href="/pages/index.jsp";    
      } else { 
-    	 window.location.href="/mobile/index.html";
+    	 window.location.href="/mobile/mobileIndex.html";
      } 
  
 </script> 
