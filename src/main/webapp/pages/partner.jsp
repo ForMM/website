@@ -17,11 +17,11 @@
     <link href="../../css/partner.css" rel="stylesheet" type="text/css"/>     
    	<link href="../../css/footer.css" rel="stylesheet" type="text/css"/>
    	
-   	 	
-   	   	<!--[if lt IE 9]>
-<script type="text/javascript" src="../../scripts/common/html5.js"></script>
-<script type="text/javascript" src="../../scripts/common/bootstrap/js/respond.min.js"></script>
-<![endif]-->
+  	<!--[if lt IE 9]>
+	<script type="text/javascript" src="/scripts/common/html5.js"></script>
+	<script type="text/javascript" src="/scripts/common/html5shiv.js"></script>
+	<script type="text/javascript" src="/scripts/common/respond.min.js"></script>
+	<![endif]-->
    	
    	
     <script src="../../scripts/common/jquery-1.11.1.min.js"></script>
