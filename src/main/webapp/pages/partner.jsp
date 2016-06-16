@@ -36,6 +36,17 @@
 </head>
 <body class="partner">
     <jsp:include page="/pages/navigation.jsp"/>		
+    
+    <div>
+		<div class="container ">
+			<div class="row">
+				<div class="col-xs-12 col-md-12" style="text-align:center;">
+					<img class="banner-img" src="../../css/img/parterner.jpg"/>					
+				</div>			  
+			</div>	
+		</div>		
+	</div>
+        
     <div>
 		<!--<div class="container content-img" >
 			<div class="row" id="partnr-logo"></div>
@@ -89,10 +100,10 @@
 		</div>
 		
 		
-			
+		
 		
 	</div>	
-	
+	<%-- <jsp:include page="/pages/footer.jsp" flush="true" /> --%>	
 	  <script type="text/javascript">
 			(function($) {
 				$.fn.parallaxSlider = function(options) {
@@ -383,5 +394,5 @@
 	<!-- <script type="text/javascript" src="/scripts/common/jquery.tmpl.min.js"></script> 
 	<script type="text/javascript" src="/scripts/common/jquery.tmplPlus.min.js"></script> -->
 	<!-- <script type="text/javascript" src="/scripts/partner.js"></script> -->
-	<jsp:include page="/pages/footer.jsp" flush="true" />
+	
 </body>
