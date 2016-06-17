@@ -77,24 +77,24 @@
 			<div class="pxs_loading">Loading images...</div>
 			<div class="pxs_slider_wrapper">
 				<ul class="pxs_slider">
-					<li><img src="../../scripts/common/ParallaxSlider/images/1.jpg" alt="First Image" /></li>
-					<li><img src="../../scripts/common/ParallaxSlider/images/2.jpg" alt="Second Image" /></li>
-					<li><img src="../../scripts/common/ParallaxSlider/images/3.jpg" alt="Third Image" /></li>
-					<li><img src="../../scripts/common/ParallaxSlider/images/4.jpg" alt="Forth Image" /></li>
-					<li><img src="../../scripts/common/ParallaxSlider/images/5.jpg" alt="Fifth Image" /></li>
-					<li><img src="../../scripts/common/ParallaxSlider/images/6.jpg" alt="Sixth Image" /></li>
+					<li><img src="../../scripts/common/ParallaxSlider/images/1.png" alt="First Image" /></li>
+					<li><img src="../../scripts/common/ParallaxSlider/images/2.png" alt="Second Image" /></li>
+					<li><img src="../../scripts/common/ParallaxSlider/images/3.png" alt="Third Image" /></li>
+					<li><img src="../../scripts/common/ParallaxSlider/images/4.png" alt="Forth Image" /></li>
+					<li><img src="../../scripts/common/ParallaxSlider/images/5.png" alt="Fifth Image" /></li>
+					<li><img src="../../scripts/common/ParallaxSlider/images/6.png" alt="Sixth Image" /></li>
 				</ul>
 				<div class="pxs_navigation">
 					<span class="pxs_next"></span>
 					<span class="pxs_prev"></span>
 				</div>
 				<ul class="pxs_thumbnails">
-					<li><img src="../../scripts/common/ParallaxSlider/images/thumbs/1.jpg" alt="First Image" /></li>
-					<li><img src="../../scripts/common/ParallaxSlider/images/thumbs/2.jpg" alt="Second Image" /></li>
-					<li><img src="../../scripts/common/ParallaxSlider/images/thumbs/3.jpg" alt="Third Image" /></li>
-					<li><img src="../../scripts/common/ParallaxSlider/images/thumbs/4.jpg" alt="Forth Image" /></li>
-					<li><img src="../../scripts/common/ParallaxSlider/images/thumbs/5.jpg" alt="Fifth Image" /></li>
-					<li><img src="../../scripts/common/ParallaxSlider/images/thumbs/6.jpg" alt="Sixth Image" /></li>
+					<li><img src="../../scripts/common/ParallaxSlider/images/thumbs/1.png" alt="First Image" /></li>
+					<li><img src="../../scripts/common/ParallaxSlider/images/thumbs/2.png" alt="Second Image" /></li>
+					<li><img src="../../scripts/common/ParallaxSlider/images/thumbs/3.png" alt="Third Image" /></li>
+					<li><img src="../../scripts/common/ParallaxSlider/images/thumbs/4.png" alt="Forth Image" /></li>
+					<li><img src="../../scripts/common/ParallaxSlider/images/thumbs/5.png" alt="Fifth Image" /></li>
+					<li><img src="../../scripts/common/ParallaxSlider/images/thumbs/6.png" alt="Sixth Image" /></li>
 				</ul>
 			</div>
 		</div>
