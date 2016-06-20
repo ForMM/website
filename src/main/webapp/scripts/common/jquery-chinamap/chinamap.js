@@ -92,7 +92,8 @@ function Map() {
 //                $sl.css("font-size", "20px");
 
                 $("#content").find("h1").empty().html( china[state]['name'] );
-                $("#content").find("span").empty().html( china[state]['content'] );
+                $("#content").find("span").empty().html( china[state]['content'] );              
+                $("#content").find("img").attr("src", china[state]['person'] );
 
             }, function () {
 //                var $sl = $("#topList").find("[title='" + china[state]['name'] + "']:not([select])");
@@ -165,7 +166,7 @@ function Bind() {
                 html += "<div style='cursor:pointer;font-weight:bolder;color:" + china[item.AreaName]['path'].color + "' title='" + china[item.AreaName]['name']
                     + "'>TOP " + (i + 1) + ":" + china[item.AreaName]['name'] + "</div>"
 
-                var anim = Raphael.animation({ fill: china[item.AreaName]['path'].color, stroke: "#eee" }, 1000);
+                var anim = Raphael.animation({ fill: "#E5802D", stroke: "#eee" }, 1000);
                 //*** anim.delay(i * 500)增加显示延时，就是让排序省份一个一个显示，但是在IE9以下没效果，因为IE会假死，知道全部显示完
                 china[item.AreaName]['path'].stop().animate(anim.delay(i * 500));
                 china[item.AreaName]['isClick'] = true;
