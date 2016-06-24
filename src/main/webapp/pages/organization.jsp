@@ -48,11 +48,40 @@
 				<p><strong>区域经理：</strong>管理以市为单位的区域范围。</p>		
 				<p><strong>施工队长：</strong>从业美缝施工2年以上，细心，责任感强。拥有丰富的施工经验，掌握调色能力，能满足客户颜色 “私    人订制”的要求。</p>		
 				<p><strong>专业 施工员：</strong>配合施工队长完成美缝施工工作。</p>				
+			</div>				
+		</div>	
+		
+		<div class="container preson-div">
+			<div class="col-xs-3 col-md-3">
+				<img alt="" src="../../css/img/organization.jpg" >
+				<div class="intro-banner" >
+					<span>安科技的发挥空间啊回复可</span>
+					<p>安科技的发挥空间啊回复可见啊哈罚款建设</p>			
+				</div>				
 			</div>	
-			<div style="text-align:center;">
-				<img alt="" src="../../css/img/organization.jpg">
-			</div>
-		</div>		
+			<div class="col-xs-3 col-md-3">
+				<img alt="" src="../../css/img/organization.jpg" >	
+				<div class="intro-banner" >
+					<span>安科技的发挥空间啊回复可</span>
+					<p>安科技的发挥空间啊回复可见啊哈罚款建设</p>			
+				</div>			
+			</div>		
+			<div class="col-xs-3 col-md-3">
+				<img alt="" src="../../css/img/organization.jpg">	
+				<div class="intro-banner" >
+					<span>安科技的发挥空间啊回复可</span>
+					<p>安科技的发挥空间啊回复可见啊哈罚款建设</p>			
+				</div>			
+			</div>		
+			<div class="col-xs-3 col-md-3">
+				<img alt="" src="../../css/img/organization.jpg">	
+				<div class="intro-banner" >
+					<span>安科技的发挥空间啊回复可</span>
+					<p>安科技的发挥空间啊回复可见啊哈罚款建设</p>			
+				</div>			
+			</div>					
+		</div>
+			
 	</div>
 	<jsp:include page="/pages/footer.jsp" flush="true" />
 </body>

@@ -136,18 +136,20 @@
 .about {
    /*  width: 320px;
     height: 286px; */
-    margin-left: 20px;
-    float: left
+   /*  margin-left: 20px;
+    float: left */
 }
 
 .about-pic {    
-    border: 5px solid #e7e7e7;
+  /*   border: 2px solid #e7e7e7; */
     margin-bottom: 0px;
-    height:250px;
+   /*  height:250px; */
 }
 
 .about-con {
+	margin-top:20px;
     height: 68px;
+    width:400px;
     color: #222222;
     line-height: 24px;
     text-indent: 25px;
@@ -228,4 +230,8 @@
 #slider{
 	/* border:1px solid red; */
 	
+}
+.certificate{
+	padding-top:50px;
+	margin-left:-10px;
 }

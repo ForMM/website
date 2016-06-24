@@ -1,10 +1,11 @@
 .culture{
-	/* background:#7AF76C; */
+	/* background:#EEEEEE; */
+	background:url("../../css/img/background.jpg");
 	color: #333;
     font-family: "Î¢ÈíÑÅºÚ";
-    font-size: 20px;
-    padding-top: 10px;
-    text-align: center;
+    font-size: 20px;      
+    font-family:"Î¢ÈíÑÅºÚ",Georgia,Serif;	
+	color:#000000;	
 }
 .content-img{
 	margin:100px auto 10px;
@@ -12,12 +13,31 @@
 	
 }
 .banner-img{
-	width:100%;
-	height:200px;
+	width:300px;
+	height:420px;
 }
 .license-row{
 	margin-top:80px;
 }
 .footer{
 	position:fixed;
+}
+.intro-banner{
+	margin-left:30px;
+	background: #DFDFDF;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    width:300px;
+	
+}
+
+.intro-banner span{
+	font-weight:bold;
+}
+
+.intro-banner p{
+	margin-top:5px;
+	font-size: 14px;
+	
 }

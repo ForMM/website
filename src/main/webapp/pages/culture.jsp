@@ -46,30 +46,51 @@
 		<div class="container content-img">
 			<div class="row">
 				<div class="col-xs-4 col-md-4" style="text-align:center;">
-					<img class="banner-img" src="../../css/img/banner1-aboutus.jpg"/>					
+					<img class="banner-img" width="300" height="420" src="../../css/img/certificate1.jpg"/>	
+					<div class="intro-banner" >
+						<span>安科技的发挥空间啊回复可</span>
+						<p>安科技的发挥空间啊回复可见啊哈罚款建设</p>			
+					</div>					
 				</div>	
 				<div class="col-xs-4 col-md-4" style="text-align:center;">
-					<img class="banner-img" src="../../css/img/banner1-aboutus.jpg"/>					
+					<img class="banner-img" src="../../css/img/certificate2.jpg"/>	
+					<div class="intro-banner" >
+						<span>安科技的发挥空间啊回复可</span>
+						<p>安科技的发挥空间啊回复可见啊哈罚款建设</p>			
+					</div>					
 				</div>	
 				<div class="col-xs-4 col-md-4" style="text-align:center;">
-					<img class="banner-img" src="../../css/img/banner1-aboutus.jpg"/>					
+					<img class="banner-img" src="../../css/img/certificate3.jpg"/>		
+					<div class="intro-banner" >
+						<span>安科技的发挥空间啊回复可</span>
+						<p>安科技的发挥空间啊回复可见啊哈罚款建设</p>			
+					</div>				
 				</div>	
 			</div>
 			<div class="row license-row">
-				<div class="col-xs-3 col-md-3" style="text-align:center;">
-					<img class="banner-img" src="../../css/img/banner1-aboutus.jpg"/>					
+				<div class="col-xs-4 col-md-4" style="text-align:center;">
+					<img class="banner-img" src="../../css/img/certificate4.jpg"/>	
+					<div class="intro-banner" >
+						<span>安科技的发挥空间啊回复可</span>
+						<p>安科技的发挥空间啊回复可见啊哈罚款建设</p>			
+					</div>					
 				</div>	
-				<div class="col-xs-3 col-md-3" style="text-align:center;">
-					<img class="banner-img" src="../../css/img/banner1-aboutus.jpg"/>					
+				<div class="col-xs-4 col-md-4" style="text-align:center;">
+					<img class="banner-img" src="../../css/img/certificate5.jpg"/>	
+					<div class="intro-banner" >
+						<span>安科技的发挥空间啊回复可</span>
+						<p>安科技的发挥空间啊回复可见啊哈罚款建设</p>			
+					</div>					
 				</div>	
-				<div class="col-xs-3 col-md-3" style="text-align:center;">
-					<img class="banner-img" src="../../css/img/banner1-aboutus.jpg"/>					
-				</div>
-				<div class="col-xs-3 col-md-3" style="text-align:center;">
-					<img class="banner-img" src="../../css/img/banner1-aboutus.jpg"/>					
-				</div>		
+				<div class="col-xs-4 col-md-4" style="text-align:center;">
+					<img class="banner-img" src="../../css/img/certificate6.jpg"/>
+					<div class="intro-banner" >
+						<span>安科技的发挥空间啊回复可</span>
+						<p>安科技的发挥空间啊回复可见啊哈罚款建设</p>			
+					</div>						
+				</div>	
 			</div>
 		</div>		
 	</div>
-	<jsp:include page="/pages/footer.jsp" flush="true" />
+	<%-- <jsp:include page="/pages/footer.jsp" flush="true" /> --%>
 </body>

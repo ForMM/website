@@ -17,7 +17,9 @@
     <link href="../../css/index.css" rel="stylesheet" type="text/css"/> 
    	<link href="../../css/footer.css" rel="stylesheet" type="text/css"/>
    	<link  href="../../scripts/common/themes/fourth/imageSlider.css" type="text/css" rel="stylesheet">
-   	
+   	<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+	<link rel="stylesheet" type="text/css" href="css/demo.css" />
+	<link rel="stylesheet" type="text/css" href="css/component.css" />
    	<!--[if lt IE 9]>
 	<script type="text/javascript" src="/scripts/common/html5.js"></script>
 	<script type="text/javascript" src="/scripts/common/html5shiv.js"></script>
@@ -34,84 +36,33 @@
     
     <script src="../../scripts/index.js"></script>
     <script src="../../scripts/indexproduct.js"></script>
-     
+     <script src="js/modernizr.custom.js"></script>
 </head>
 <body class="index">
  <jsp:include page="/pages/navigation.jsp"/>	 
+ <iframe src="/pages/Test.jsp" style="width:100%;height:90%;margin-top:20px"></iframe>
  	<div class="container-fluid" id="main-content">
 		<div class="section section-home section-switch-banner">
 		
 		
-		<div class="effectShow" id="effectShow">
-			<object id="effectShow_swf" type="application/x-shockwave-flash" data="http://0.ss.faisys.com/image/site/effects/58.swf?083db28f5a66e3a2ea54d4a75b5776e1" width="960" height="380"><param name="movie" value="http://0.ss.faisys.com/image/site/effects/58.swf?083db28f5a66e3a2ea54d4a75b5776e1"><param name="quality" value="high"><param name="flashvars" value="text1=&amp;text2=&amp;size1=undefined&amp;size2=undefined&amp;color1=0x000&amp;color2=0xFFFFFF&amp;style1=undefined&amp;style2=undefined"><param name="wmode" value="transparent"><embed name="effectShow_swf" pluginspage="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash" type="application/x-shockwave-flash" classid="clsid:d27cdb6e-ae6d-11cf-96b8-4445535400000" id="effectFlash" src="http://0.ss.faisys.com/image/site/effects/58.swf?083db28f5a66e3a2ea54d4a75b5776e1" wmode="transparent" quality="high" menu="false" play="true" loop="true" width="960" height="380" flashvars="text1=&amp;text2=&amp;size1=undefined&amp;size2=undefined&amp;color1=0x000&amp;color2=0xFFFFFF&amp;style1=undefined&amp;style2=undefined"></object>
-		</div>
-		<div id="imgCom">
-		    <div id="slider">
-		        <img src="../../css/img/banner-one.png"/>
-		        <img src="../../css/img/banner-two.png"/>
-		        <img src="../../css/img/banner-three.png"/>
-		        <!--<img src="../images/slider-4.jpg"/>-->
-		    </div>
-		    <!--Custom navigation buttons on both sides-->
-		    <div class="group1-Wrapper">
-		        <a onclick="imageSlider.previous()" class="group1-Prev"></a>
-		        <a onclick="imageSlider.next()" class="group1-Next"></a>
-		    </div>
-		    <!--nav bar-->
-		    <div style="text-align:center;padding:20px;z-index:20;">
-		        <a onclick="imageSlider.previous()" class="group2-Prev"></a>
-		        <a id='auto' onclick="switchAutoAdvance()"></a>
-		        <a onclick="imageSlider.next()" class="group2-Next"></a>
-		    </div>
-		</div>
 		
 		
 		
 		
-           <!-- <div id="indexCarousel" class="carousel slide" data-ride="carousel" data-interval="4000">
-               <ol class="carousel-indicators">
-                   <li data-target="#indexCarousel" data-slide-to="0" class="active"></li>
-                   <li data-target="#indexCarousel" data-slide-to="1"></li>
-                   <li data-target="#indexCarousel" data-slide-to="2"></li>                  
-               </ol>
-               
-               
-               <div class="carousel-inner" role="listbox">
-                   <div class="item active banner-one">    
-                   		<img alt="" class="carousel-inner img-responsive img-rounded" src="../../css/img/banner-one.png">                   
-                   </div>
-                   <div class="item banner-two"> 
-						<img alt="" class="carousel-inner img-responsive img-rounded" src="../../css/img/banner-two.png"> 
-						<div class="carousel-caption">
-							<h3>也娜美缝剂</h3>
-							<p>为的是更好的视觉</p>
-						</div>                                  
-                   </div>
-                   <div class="item banner-three"> 
-                   		<img alt="" class="carousel-inner img-responsive img-rounded" src="../../css/img/banner-three.png">                                    
-                   </div>                 
-               </div>
-               <a class="left carousel-control" href="#indexCarousel" role="button" data-slide="prev">
-                   <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                   <span class="sr-only">Previous</span>
-               </a>
-               <a class="right carousel-control" href="#indexCarousel" role="button" data-slide="next">
-                   <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                   <span class="sr-only">Next</span>
-               </a>
-           </div> -->
         </div>
 
         <div class="section section-intro">
-            <div class="container">
+            <div class="container-fluid">
                 <div class="row">
-                	<div class="col-xs-7 col-md-7">
+                	<div class="col-xs-6 col-md-6">
                         <div class="news">
 				            <div class="channel-title"><span>企业荣誉</span><a href="#">更多</a></div>
 				            <div class="news-con">
 				
 				                <div class="news-pic">
-				                    <a href="#"><img src="css/img/news-logo.jpg" width="248" height="225" /></a>		
+				                 	<a href="#"><img src="../../css/img/certificate.jpg" width="750" height="430" /></a>	
+				                    	
+				                   
 				                </div>
 				
 				                <div class="news-view">
@@ -120,16 +71,17 @@
 				            </div>
 				        </div>
                     </div>
-                    <div class="col-xs-5 col-md-5">
+                    <div class="col-xs-2 col-md-2 certificate">
+                    	<span>奥斯的解放军啊独生覅哦啊ufdsioaofdsioa地方撒哦啊度覅哦</span>
+                    </div>
+                    <div class="col-xs-4 col-md-4">
                         <div class="about">
 				            <div class="channel-title"><span>认识也娜</span><a href="#">更多</a></div>
 				            <div class="about-pic">
-					           <embed align="middle" src="http://player.youku.com/player.php/sid/XMTI4MjY1NDkzMg==/v.swf" width="100%" height="100%" type="application/x-shockwave-flash" wmode="opaque" flashvars="isAutoPlay=true" allowscriptaccess="sameDomain" quality="high">
-				            <!-- <img src="css/img/news-logo.jpg" width="310" height="100%" /> -->
-				            
+					           <embed align="middle" src="../../css/yena.swf" width="400" height="300" type="application/x-shockwave-flash" wmode="opaque" flashvars="isAutoPlay=true" allowscriptaccess="sameDomain" quality="high">				          
 				            </div>
 				            <div class="about-con">
-				                重庆也娜科技化工有限公司拥有色母双螺杆生产线十多条，配备进口高端检测设备和最具专业的配色师队伍...
+				               	也娜环保科技有限公司坐落于东莞市莞城区罗沙装饰城，是东莞市政治、经济、文化的中心，东引运河流经市区，交通四通八达，是广州与香港之间水陆交通的必经之路。商贾云集、人气旺盛、餐饮兴隆、市场繁荣。
 				            </div>
 				        </div>
                     </div>                  
@@ -213,7 +165,7 @@
 		        </div>
 		        <script type="text/javascript">
 		        
-		        var sliderOptions =
+		      /*   var sliderOptions =
 		        {
 		            sliderId: "slider",
 		            startSlide: 0,
@@ -244,7 +196,7 @@
 		            auto.className = isAutoPlay ? "group2-Pause" : "group2-Play";
 		            auto.title = isAutoPlay ? "Pause" : "Play";
 		        }
-		        switchPlayPauseClass();
+		        switchPlayPauseClass(); */
 		        
 		        
 			        new Marquee({
@@ -257,5 +209,6 @@
 
 	</div>
   <jsp:include page="/pages/footer.jsp" />
+  
 </body>
 </html>

@@ -28,7 +28,7 @@
 							    <ul class="dropdown-menu dropdown-menu-custom">
 							       	<li><a href="../pages/company.jsp"><i class="icon-file"></i>企业简介</a></li>
 				                    <li><a href="../pages/culture.jsp" ><i class="icon-group"></i>企业证书</a></li>
-				                    <li><a href="../pages/organization.jsp"><i class="icon-group"></i>施工部管理层</a></li>
+				                    <li><a href="../pages/organization.jsp"><i class="icon-group"></i>工程部管理团队</a></li>
 							    </ul>
 							</li>
 				                   				    

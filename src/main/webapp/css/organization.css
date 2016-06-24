@@ -15,3 +15,26 @@
 .content-header{
 	font-weight:bold;
 }
+
+.preson-div img{
+	height:200px;
+	width:100%;
+}
+
+.intro-banner{		
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    width:300px;
+	
+}
+
+.intro-banner span{
+	font-weight:bold;
+}
+
+.intro-banner p{
+	margin-top:5px;
+	font-size: 14px;
+	
+}
