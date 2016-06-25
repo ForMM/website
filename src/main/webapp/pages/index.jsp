@@ -37,42 +37,34 @@
     <script src="../../scripts/index.js"></script>
     <script src="../../scripts/indexproduct.js"></script>
      <script src="js/modernizr.custom.js"></script>
+  
 </head>
 <body class="index">
  <jsp:include page="/pages/navigation.jsp"/>	 
- <iframe src="/pages/Test.jsp" style="width:100%;height:90%;margin-top:20px"></iframe>
+ 	<iframe src="/pages/Test.jsp" style="width:100%;height:92%;margin-top:20px"></iframe>
  	<div class="container-fluid" id="main-content">
-		<div class="section section-home section-switch-banner">
-		
-		
-		
-		
-		
-		
+		<div class="section section-home section-switch-banner">	
+			<div class="effectShow" id="effectShow">
+				<object id="effectShow_swf" type="application/x-shockwave-flash" data="http://0.ss.faisys.com/image/site/effects/58.swf?083db28f5a66e3a2ea54d4a75b5776e1" width="960" height="380"><param name="movie" value="http://0.ss.faisys.com/image/site/effects/58.swf?083db28f5a66e3a2ea54d4a75b5776e1"><param name="quality" value="high"><param name="flashvars" value="text1=&amp;text2=&amp;size1=undefined&amp;size2=undefined&amp;color1=0x000&amp;color2=0xFFFFFF&amp;style1=undefined&amp;style2=undefined"><param name="wmode" value="transparent"><embed name="effectShow_swf" pluginspage="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash" type="application/x-shockwave-flash" classid="clsid:d27cdb6e-ae6d-11cf-96b8-4445535400000" id="effectFlash" src="http://0.ss.faisys.com/image/site/effects/58.swf?083db28f5a66e3a2ea54d4a75b5776e1" wmode="transparent" quality="high" menu="false" play="true" loop="true" width="960" height="380" flashvars="text1=&amp;text2=&amp;size1=undefined&amp;size2=undefined&amp;color1=0x000&amp;color2=0xFFFFFF&amp;style1=undefined&amp;style2=undefined"></object>
+			</div>	
         </div>
-
         <div class="section section-intro">
             <div class="container-fluid">
                 <div class="row">
                 	<div class="col-xs-6 col-md-6">
                         <div class="news">
-				            <div class="channel-title"><span>企业荣誉</span><a href="#">更多</a></div>
-				            <div class="news-con">
-				
+				            <div class="channel-title"><span>企业荣誉</span><!-- <a href="#">更多</a> --></div>
+				            <div class="news-con">				
 				                <div class="news-pic">
-				                 	<a href="#"><img src="../../css/img/certificate.jpg" width="750" height="430" /></a>	
-				                    	
-				                   
-				                </div>
-				
-				                <div class="news-view">
-				                   
+				                 	<a href="#"><img src="../../css/img/certificate.png" width="750" height="450" /></a>					                  
+				                </div>				
+				                <div class="news-view">				                   
 				                </div>
 				            </div>
 				        </div>
                     </div>
                     <div class="col-xs-2 col-md-2 certificate">
-                    	<span>奥斯的解放军啊独生覅哦啊ufdsioaofdsioa地方撒哦啊度覅哦</span>
+                    	<span>也娜环保科技有限公司坐落于东莞市莞城区罗沙装饰城，是东莞市政治、经济、文化的中心，东引运河流经市区，交通四通八达，是广州与香港之间水陆交通的必经之路。商贾云集、人气旺盛、餐饮兴隆、市场繁荣。</span>
                     </div>
                     <div class="col-xs-4 col-md-4">
                         <div class="about">
@@ -100,9 +92,55 @@
             </div>
         </div>
 
-
+		<div class="section section-product">
+		 	<div class="channel-title"><span>产品展示</span><a href="#">更多</a></div>
+            <div class="container-fluid">
+                <div class="row">
+                	<div class="col-xs-4 col-md-4">                                                                    
+                        <div class="thumbnail">
+	                       <div class="caption">
+					          <h5>图片标题</h5>
+					          <p>图片相关描述</p>
+					          <p>
+					               <a href="" class="label label-primary biglabel" rel="tooltip" title="点击欣赏原图">欣赏</a>
+					               <a href="" class="label label-info biglabel" rel="tooltip" title="立刻下载原图">下载</a>
+					          </p>					          
+        					</div>
+        					<img alt="" src="../../css/img/product-1.png" width="300"height="300">
+        				</div>
+                    </div>
+                    <div class="col-xs-4 col-md-4">
+		                    <div class="thumbnail">
+			                       <div class="caption">
+							          <h5>图片标题</h5>
+							          <p>图片相关描述</p>
+							          <p>
+							               <a href="" class="label label-primary biglabel" rel="tooltip" title="点击欣赏原图">欣赏</a>
+							               <a href="" class="label label-info biglabel" rel="tooltip" title="立刻下载原图">下载</a>
+							          </p>					          
+		        					</div>
+		        					<img alt="" src="../../css/img/product-2.png" width="300" height="300">
+	        				</div>                    	 
+                    </div>
+                    <div class="col-xs-4 col-md-4">
+                    <div class="thumbnail">
+	                       <div class="caption">
+					          <h5>图片标题</h5>
+					          <p>图片相关描述</p>
+					          <p>
+					               <a href="" class="label label-primary biglabel" rel="tooltip" title="点击欣赏原图">欣赏</a>
+					               <a href="" class="label label-info biglabel" rel="tooltip" title="立刻下载原图">下载</a>
+					          </p>					          
+        					</div>
+        					<img alt="" src="../../css/img/product-3.png" width="300" height="300">
+        				</div>                          
+                    </div>                  
+                </div>
+            </div>
+        </div>
+        
 		 <div class="section section-product">
-		        <div class="channel-title"><span>产品展示</span><a href="#">更多</a></div>
+		        <div class="channel-title"><span>案列展示</span><a href="#">更多</a></div>
 		        <div class="pro"id="MyMarqueeX" >
 		            <table width="100%" border="0" cellpadding="0" cellspacing="0" class="table">
 		                <tr>
@@ -163,46 +201,33 @@
 		                </tr>
 		            </table>
 		        </div>
-		        <script type="text/javascript">
-		        
-		      /*   var sliderOptions =
-		        {
-		            sliderId: "slider",
-		            startSlide: 0,
-		            effect: "6,15,1,2,11,12,13,15,16,5,7",
-		            effectRandom: false,
-		            pauseTime: 2600,
-		            transitionTime: 500,
-		            slices: 14,
-		            boxes: 11,
-		            hoverPause: 2,
-		            autoAdvance: true,
-		            captionOpacity: 0.5,
-		            captionEffect: "rotate",
-		            thumbnailsWrapperId: null,
-		            m: true,
-		            license: "b6t80"
-		        };
-
-		        var imageSlider = new mcImgSlider(sliderOptions);
-
-		        function switchAutoAdvance() {
-		            imageSlider.switchAuto();
-		            switchPlayPauseClass();
-		        }
-		        function switchPlayPauseClass() {
-		            var auto = document.getElementById('auto');
-		            var isAutoPlay = imageSlider.getAuto();
-		            auto.className = isAutoPlay ? "group2-Pause" : "group2-Play";
-		            auto.title = isAutoPlay ? "Pause" : "Play";
-		        }
-		        switchPlayPauseClass(); */
-		        
-		        
+		        <script type="text/javascript">		   
 			        new Marquee({
 			            obj: 'MyMarqueeX',
 			            movePause: true
 			        });
+			        
+			        $('[rel="tooltip"]').tooltip();
+
+
+			        /* 生成鼠标悬浮滑动展示图片说明 */
+
+
+			        $('.thumbnail').hover(
+			          function(){
+			            //鼠标进入
+			            //$(this).find('.caption').slideDown(300);
+			            $(this).find('.caption').fadeIn(300);
+			          },
+			          function(){
+			            //鼠标离开
+			            //$(this).find('.caption').slideUp(300);
+			            $(this).find('.caption').fadeOut(300);
+			          }
+			        );
+
+
+			        
 		        </script>
 		    </div>
 

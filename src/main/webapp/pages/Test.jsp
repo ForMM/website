@@ -6,8 +6,8 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Four Boxes Slideshow | Demo 1</title>
 
- 	<link rel="stylesheet" type="text/css" href="css/normalize.css" />
-	<link rel="stylesheet" type="text/css" href="css/demo.css" />
+ <!-- 	<link rel="stylesheet" type="text/css" href="css/normalize.css" /> -->
+	<!-- <link rel="stylesheet" type="text/css" href="css/demo.css" /> -->
 	<link rel="stylesheet" type="text/css" href="css/component.css" />
 <script src="../../scripts/common/jquery-1.11.1.min.js"></script>
     <script src="js/modernizr.custom.js"></script>
@@ -23,6 +23,7 @@
 <body>
 <div class="container">
 
+	
 	<div id="boxgallery" class="boxgallery" data-effect="effect-1">
 		<div class="panel"><img src="../../css/img/banner-one.png" alt="Image 1"/></div>
 		<div class="panel"><img src="../../css/img/banner-two.png" alt="Image 2"/></div>

@@ -65,7 +65,13 @@
 		// check if animating
 		this.isAnimating = false;
 		// the panels
+		
+		
+		
+	try{
 		this.panels = [].slice.call( this.el.querySelectorAll( '.panel' ) );
+
+		/*this.panels = [].slice.call( this.el.querySelectorAll( '.panel' ) );*/
 		// total number of panels (4 for this demo)
 		//this.panelsCount = this.panels.length;
 		this.panelsCount = 4;
@@ -88,6 +94,10 @@
 		this.el.appendChild( this.nav );
 		// initialize events
 		this._initEvents();
+	}catch(e){
+		
+	}
+		
 	}
 
 	// set the transforms per effect

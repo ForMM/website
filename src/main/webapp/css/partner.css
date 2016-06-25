@@ -41,3 +41,19 @@
             z-index: 10001;
             overflow: auto;
         }
+        
+        .partner-logo{
+        	margin-top:90px;
+        }
+        
+        #pxs_container{
+        	margin-bottom:30px;
+        	width:100%;
+        	height:520px;
+        }
+        #pxs_container img{
+        	width:100%;
+        }
+        ul.pxs_thumbnails{
+        top:420px;
+        }

@@ -40,7 +40,7 @@
 			</div>	
 		</div>		
 	</div>
-	<div>
+	<div style="margin-bottom:10px;">
 		<div class="container content">
 			<div class="col-xs-12 col-md-12">
 				<p>也娜施工队坚持“以质量取胜，以技术创新，以服务争优”为管理宗旨，不断引进先进管理理念，营造开放、协作、共赢的氛围，打造行业最具专业、活力的美缝施工团队。</p>	
@@ -53,31 +53,132 @@
 		
 		<div class="container preson-div">
 			<div class="col-xs-3 col-md-3">
-				<img alt="" src="../../css/img/organization.jpg" >
+				<img alt="" src="../../css/img/hunan.jpg" >
 				<div class="intro-banner" >
-					<span>安科技的发挥空间啊回复可</span>
-					<p>安科技的发挥空间啊回复可见啊哈罚款建设</p>			
+					<!-- <span>安科技的发挥空间啊回复可</span> -->
+					<span>城市：全国</span>	
+					<br/>
+					<span>职务：总经理兼业务总监</span>	
+					<br/>
+					<span>服务热线：17707336067</span>							
 				</div>				
 			</div>	
 			<div class="col-xs-3 col-md-3">
-				<img alt="" src="../../css/img/organization.jpg" >	
+				<img alt="" src="../../css/img/designer.jpg" >	
 				<div class="intro-banner" >
-					<span>安科技的发挥空间啊回复可</span>
-					<p>安科技的发挥空间啊回复可见啊哈罚款建设</p>			
+					<span>城市：全国</span>	
+					<br/>
+					<span>职务：总工程监理，设计师</span>	
+					<br/>
+					<span>服务热线：400-618-6047</span>		
 				</div>			
 			</div>		
 			<div class="col-xs-3 col-md-3">
 				<img alt="" src="../../css/img/organization.jpg">	
 				<div class="intro-banner" >
-					<span>安科技的发挥空间啊回复可</span>
-					<p>安科技的发挥空间啊回复可见啊哈罚款建设</p>			
+					<span>城市：全国</span>	
+					<br/>
+					<span>职务：总工程监理，设计师</span>	
+					<br/>
+					<span>服务热线：400-618-6047</span>			
 				</div>			
 			</div>		
 			<div class="col-xs-3 col-md-3">
-				<img alt="" src="../../css/img/organization.jpg">	
+				<img alt="" src="../../css/img/chengdu.jpg">	
 				<div class="intro-banner" >
-					<span>安科技的发挥空间啊回复可</span>
-					<p>安科技的发挥空间啊回复可见啊哈罚款建设</p>			
+					<span>城市：成都</span>	
+					<br/>
+					<span>职务：主管成都业务，工程监理。售后，星级施工员</span>	
+					<br/>
+					<span>服务热线：400-618-6047</span>			
+				</div>			
+			</div>					
+		</div>
+		
+		<div class="container preson-div">
+			<div class="col-xs-3 col-md-3">
+				<img alt="" src="../../css/img/guazhou.jpg" >
+				<div class="intro-banner" >
+					<!-- <span>安科技的发挥空间啊回复可</span> -->
+					<span>城市：贵阳</span>	
+					<br/>
+					<span>职务：主管贵阳业务，工程监理。售后，星级施工员</span>	
+					<br/>
+					<span>服务热线：400-618-6047</span>							
+				</div>				
+			</div>	
+			<div class="col-xs-3 col-md-3">
+				<img alt="" src="../../css/img/chongqing.jpg" >	
+				<div class="intro-banner" >
+					<span>城市：重庆</span>	
+					<br/>
+					<span>职务：主管重庆业务，工程监理。售后，星级施工员</span>	
+					<br/>
+					<span>服务热线：400-618-6047</span>		
+				</div>			
+			</div>		
+			<div class="col-xs-3 col-md-3">
+				<img alt="" src="../../css/img/anhui.jpg">	
+				<div class="intro-banner" >
+					<span>城市：合肥</span>	
+					<br/>
+					<span>职务：主管合肥业务，工程监理。售后，星级施工员</span>	
+					<br/>
+					<span>服务热线：400-618-6047</span>				
+				</div>			
+			</div>		
+			<div class="col-xs-3 col-md-3">
+				<img alt="" src="../../css/img/yunnan.jpg">	
+				<div class="intro-banner" >
+					<span>城市：云南</span>	
+					<br/>
+					<span>职务：主管云南业务，工程监理。售后，星级施工员</span>	
+					<br/>
+					<span>服务热线：400-618-6047</span>			
+				</div>			
+			</div>					
+		</div>
+		
+		<div class="container preson-div">
+			<div class="col-xs-3 col-md-3">
+				<img alt="" src="../../css/img/jiangxi.jpg" >
+				<div class="intro-banner" >
+					<!-- <span>安科技的发挥空间啊回复可</span> -->
+					<span>城市：江西</span>	
+					<br/>
+					<span>职务：主管江西业务，工程监理。售后，星级施工员</span>	
+					<br/>
+					<span>服务热线：400-618-6047</span>							
+				</div>				
+			</div>	
+			<div class="col-xs-3 col-md-3">
+				<img alt="" src="../../css/img/jiangsu.jpg" >	
+				<div class="intro-banner" >
+					<span>城市：江苏</span>	
+					<br/>
+					<span>职务：主管江苏业务，工程监理。售后，星级施工员</span>	
+					<br/>
+					<span>服务热线：400-618-6047</span>		
+				</div>			
+			</div>		
+			<div class="col-xs-3 col-md-3">
+				<img alt="" src="../../css/img/guangxi.jpg">	
+				<div class="intro-banner" >
+					<span>城市：广西</span>	
+					<br/>
+					<span>职务：主管江西业务，工程监理。售后，星级施工员</span>	
+					<br/>
+					<span>服务热线：400-618-6047</span>		
+				</div>			
+			</div>		
+			<div class="col-xs-3 col-md-3">
+				<img alt="" src="../../css/img/hainan.jpg">	
+				<div class="intro-banner" >
+					<span>城市：海南</span>	
+					<br/>
+					<span>职务：主管江西业务，工程监理。售后，星级施工员</span>	
+					<br/>
+					<span>服务热线：400-618-6047</span>			
 				</div>			
 			</div>					
 		</div>
