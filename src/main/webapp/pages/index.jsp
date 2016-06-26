@@ -50,21 +50,31 @@
         </div>
         <div class="section section-intro">
             <div class="container-fluid">
-                <div class="row">
-                	<div class="col-xs-6 col-md-6">
+                <div class="row-fluid">
+                	<div class="col-xs-5 col-md-5">
                         <div class="news">
 				            <div class="channel-title"><span>企业荣誉</span><!-- <a href="#">更多</a> --></div>
 				            <div class="news-con">				
 				                <div class="news-pic">
-				                 	<a href="#"><img src="../../css/img/certificate.png" width="750" height="450" /></a>					                  
+				                 	<a href="#"><img src="../../css/img/certificate.png" width="100%" /></a>					                  
 				                </div>				
 				                <div class="news-view">				                   
 				                </div>
 				            </div>
 				        </div>
                     </div>
-                    <div class="col-xs-2 col-md-2 certificate">
-                    	<span>也娜环保科技有限公司坐落于东莞市莞城区罗沙装饰城，是东莞市政治、经济、文化的中心，东引运河流经市区，交通四通八达，是广州与香港之间水陆交通的必经之路。商贾云集、人气旺盛、餐饮兴隆、市场繁荣。</span>
+                    <div class="col-xs-3 col-md-3 certificate">
+                    
+                    
+                    	<ul>
+						    <li><a><span>国内首家环保美缝剂专业生产制造商</span></a></li>
+						    <li><a>中国著名品牌，<span>3.15消费者可信赖产品</span></a></li>
+						    <li><a>出席北京<span>人民大会堂全国质量月诚信企业表彰</span></a></li>
+						    <li><a>315中国质量协会验证合格产品</a></li>
+						</ul>
+                    
+                    
+                    	
                     </div>
                     <div class="col-xs-4 col-md-4">
                         <div class="about">
@@ -106,8 +116,12 @@
 					               <a href="" class="label label-info biglabel" rel="tooltip" title="立刻下载原图">下载</a>
 					          </p>					          
         					</div>
-        					<img alt="" src="../../css/img/product-1.png" width="300"height="300">
+        					<p>
+        						<img alt="" src="../../css/img/product-1.png" width="300"height="400" >
+        					</p>
+        					
         				</div>
+        				<div class="thumb-intro">吹风机奥斯卡里的</div>
                     </div>
                     <div class="col-xs-4 col-md-4">
 		                    <div class="thumbnail">
@@ -120,10 +134,11 @@
 							          </p>					          
 		        					</div>
 		        					<img alt="" src="../../css/img/product-2.png" width="300" height="300">
-	        				</div>                    	 
+	        				</div>
+	        				<div class="thumb-intro">吹风机奥斯卡里的</div>    	        				                	
                     </div>
                     <div class="col-xs-4 col-md-4">
-                    <div class="thumbnail">
+                    	<div class="thumbnail">
 	                       <div class="caption">
 					          <h5>图片标题</h5>
 					          <p>图片相关描述</p>
@@ -133,7 +148,8 @@
 					          </p>					          
         					</div>
         					<img alt="" src="../../css/img/product-3.png" width="300" height="300">
-        				</div>                          
+        				</div>  
+        				<div class="thumb-intro">吹风机奥斯卡里的</div>                           
                     </div>                  
                 </div>
             </div>
