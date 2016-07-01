@@ -25,10 +25,10 @@
 
 	
 	<div id="boxgallery" class="boxgallery" data-effect="effect-1">
-		<div class="panel"><img src="../../css/img/banner-one.png" alt="Image 1"/></div>
-		<div class="panel"><img src="../../css/img/banner-two.png" alt="Image 2"/></div>
-		<div class="panel"><img src="../../css/img/banner-three.png" alt="Image 3"/></div>
-		<div class="panel"><img src="../../css/img/banner-two.png" alt="Image 3"/></div>
+		<div class="panel"><img src="../../css/img/banner-one.jpg" alt="Image 1"/></div>
+		<div class="panel"><img src="../../css/img/banner-two.jpg" alt="Image 2"/></div>
+		<div class="panel"><img src="../../css/img/banner-three.jpg" alt="Image 3"/></div>
+		<div class="panel"><img src="../../css/img/banner-two.jpg" alt="Image 3"/></div>
 	</div>
 	
 </div><!-- /container -->

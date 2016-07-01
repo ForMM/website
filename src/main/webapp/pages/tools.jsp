@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1" />
-    <title>也娜美缝剂-瓷砖填缝剂</title>
+    <title>也娜瓷缝剂-瓷砖缝美化专家</title>
     <meta name="keywords" content="也娜美缝剂,瓷砖填缝剂">
     <meta name="description" content="也娜美缝剂专注于在终极客户端以完美的施工，最大限度的发挥产品的特点">
     <meta name="author" content="也娜美缝剂">
@@ -52,38 +52,19 @@
 			<div class="container content-img" >
 			<div class="row" >
 			
-				<div class="col-xs-4 col-md-4 logo-div" style="text-align:center;">
-					<img src="../../css/img/banner-tool1.png" width="80%" height="150px"/>		
-				</div>		
-				<div class="col-xs-4 col-md-4 logo-div" style="text-align:center;">
-					<img src="../../css/img/banner-tool2.png" width="80%" height="150px"/>		
-				</div>	
-				<div class="col-xs-4 col-md-4 logo-div" style="text-align:center;">
-					<img src="../../css/img/banner-tool3.png" width="80%" height="150px"/>		
-				</div>			
+				<img src="../../css/img/step-1.jpg" width="100%" />	
 			
 			</div>
 			
 			<div class="row" >
-			
-				<div class="col-xs-4 col-md-4 logo-div" style="text-align:center;">
-					<img src="../../css/img/banner-tool4.png" width="80%" height="150px"/>		
-				</div>		
-				<div class="col-xs-4 col-md-4 logo-div" style="text-align:center;">
-					<img src="../../css/img/banner-tool5.png" width="80%" height="150px"/>		
-				</div>	
-				<div class="col-xs-4 col-md-4 logo-div" style="text-align:center;">
-					<img src="../../css/img/banner-tool1.png" width="80%" height="150px"/>		
-				</div>			
-			
+				
+				<img src="../../css/img/step-2.jpg" width="100%" />	
 			</div>
 			
 			<div class="row">
 			
 					
-				<div class="col-xs-4 col-md-4 logo-div" style="text-align:center;">
-					<img src="../../css/img/banner-tool1.png" width="80%" height="150px"/>		
-				</div>	
+			
 					
 			
 			</div>
@@ -95,5 +76,5 @@
 	<script type="text/javascript" src="/scripts/common/jquery.tmpl.min.js"></script> 
 	<script type="text/javascript" src="/scripts/common/jquery.tmplPlus.min.js"></script>
 	<!-- <script type="text/javascript" src="/scripts/partner.js"></script> -->
-	<jsp:include page="/pages/footer.jsp" flush="true" />
+	<%-- <jsp:include page="/pages/footer.jsp" flush="true" /> --%>
 </body>

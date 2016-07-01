@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1" />
-    <title>也娜美缝剂-瓷砖填缝剂</title>
+    <title>也娜瓷缝剂-瓷砖缝美化专家</title>
     <meta name="keywords" content="也娜美缝剂,瓷砖填缝剂">
     <meta name="description" content="也娜美缝剂专注于在终极客户端以完美的施工，最大限度的发挥产品的特点">
     <meta name="author" content="也娜美缝剂">
@@ -48,22 +48,22 @@
 				<div class="col-xs-4 col-md-4" style="text-align:center;">
 					<img class="banner-img" width="300" height="420" src="../../css/img/certificate1.jpg"/>	
 					<div class="intro-banner" >
-						<span>安科技的发挥空间啊回复可</span>
-						<p>安科技的发挥空间啊回复可见啊哈罚款建设</p>			
+						<span>湖南龙锦建材商贸有限公司被评为“中国质量、服务、信誉AAA级企业”</span>
+					<!-- 	<p>安科技的发挥空间啊回复可见啊哈罚款建设</p>		 -->	
 					</div>					
 				</div>	
 				<div class="col-xs-4 col-md-4" style="text-align:center;">
 					<img class="banner-img" src="../../css/img/certificate2.jpg"/>	
 					<div class="intro-banner" >
-						<span>安科技的发挥空间啊回复可</span>
-						<p>安科技的发挥空间啊回复可见啊哈罚款建设</p>			
+						<span>也娜瓷缝剂被评为“中国美缝行业十大品牌”</span>
+					<!-- 	<p>安科技的发挥空间啊回复可见啊哈罚款建设</p>		 -->	
 					</div>					
 				</div>	
 				<div class="col-xs-4 col-md-4" style="text-align:center;">
 					<img class="banner-img" src="../../css/img/certificate3.jpg"/>		
 					<div class="intro-banner" >
-						<span>安科技的发挥空间啊回复可</span>
-						<p>安科技的发挥空间啊回复可见啊哈罚款建设</p>			
+						<span>也娜瓷缝剂被评为“中国美缝行业十大品牌”</span>
+						<!-- <p>安科技的发挥空间啊回复可见啊哈罚款建设</p>	 -->		
 					</div>				
 				</div>	
 			</div>
@@ -71,22 +71,22 @@
 				<div class="col-xs-4 col-md-4" style="text-align:center;">
 					<img class="banner-img" src="../../css/img/certificate4.jpg"/>	
 					<div class="intro-banner" >
-						<span>安科技的发挥空间啊回复可</span>
-						<p>安科技的发挥空间啊回复可见啊哈罚款建设</p>			
+						<span>也娜瓷缝剂被评为“国际知名品牌”</span>
+					<!-- 	<p>安科技的发挥空间啊回复可见啊哈罚款建设</p>		 -->	
 					</div>					
 				</div>	
 				<div class="col-xs-4 col-md-4" style="text-align:center;">
 					<img class="banner-img" src="../../css/img/certificate5.jpg"/>	
 					<div class="intro-banner" >
-						<span>安科技的发挥空间啊回复可</span>
-						<p>安科技的发挥空间啊回复可见啊哈罚款建设</p>			
+						<span>也娜瓷缝剂被评为“国际知名品牌”</span>
+						<!-- <p>安科技的发挥空间啊回复可见啊哈罚款建设</p>		 -->	
 					</div>					
 				</div>	
 				<div class="col-xs-4 col-md-4" style="text-align:center;">
 					<img class="banner-img" src="../../css/img/certificate6.jpg"/>
 					<div class="intro-banner" >
-						<span>安科技的发挥空间啊回复可</span>
-						<p>安科技的发挥空间啊回复可见啊哈罚款建设</p>			
+						<span>湖南龙锦建材商贸有限公司营业执照</span>
+						<!-- <p>安科技的发挥空间啊回复可见啊哈罚款建设</p>		 -->	
 					</div>						
 				</div>	
 			</div>

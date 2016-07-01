@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1" />
-    <title>也娜美缝剂-瓷砖填缝剂</title>
+    <title>也娜瓷缝剂-瓷砖缝美化专家</title>
     <meta name="keywords" content="也娜美缝剂,瓷砖填缝剂">
     <meta name="description" content="也娜美缝剂专注于在终极客户端以完美的施工，最大限度的发挥产品的特点">
     <meta name="author" content="也娜美缝剂">

@@ -6,8 +6,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1" />
-    <title>也娜美缝剂-瓷砖填缝剂</title>
-    <meta name="keywords" content="也娜美缝剂,瓷砖填缝剂">
+    <title>也娜瓷缝剂-瓷砖缝美化专家</title>
+    <meta name="keywords" content="美缝剂,瓷缝剂,也娜瓷缝剂,瓷砖缝美化专家">
     <meta name="description" content="也娜美缝剂专注于在终极客户端以完美的施工，最大限度的发挥产品的特点">
     <meta name="author" content="也娜美缝剂">
     <link rel="shortcut icon" type="image/x-icon" href="/aaa.ico" media="screen" />
@@ -56,25 +56,23 @@
 				            <div class="channel-title"><span>企业荣誉</span><!-- <a href="#">更多</a> --></div>
 				            <div class="news-con">				
 				                <div class="news-pic">
-				                 	<a href="#"><img src="../../css/img/certificate.png" width="100%" /></a>					                  
+				                 	<a><img src="../../css/img/certificate.png" width="100%" /></a>					                  
 				                </div>				
 				                <div class="news-view">				                   
 				                </div>
 				            </div>
 				        </div>
                     </div>
-                    <div class="col-xs-3 col-md-3 certificate">
-                    
-                    
+                    <div class="col-xs-3 col-md-3 certificate">                   
                     	<ul>
-						    <li><a><span>国内首家环保美缝剂专业生产制造商</span></a></li>
-						    <li><a>中国著名品牌，<span>3.15消费者可信赖产品</span></a></li>
-						    <li><a>出席北京<span>人民大会堂全国质量月诚信企业表彰</span></a></li>
-						    <li><a>315中国质量协会验证合格产品</a></li>
-						</ul>
-                    
-                    
-                    	
+						    <li><span>湖南龙锦建材商贸有限公司秉承“忠于品质，贴心服务”</span></li>
+						    <li><span>的理念，经权威机构--中国品牌发展促进委员会，</span></li>
+						    <li><span>中国企业品牌发展中心的认证，获得“中国质量、</span></li>
+						    <li><span>服务、信誉AAA级企业”，旗下品牌—也娜瓷缝剂获得</span></li>
+						    <li><span>“中国美缝行业十大品牌”、“国际知名品牌”、</span></li>
+						    <li><span>“中国绿色环保产品”等称号。</span></li>	
+						    <li><a href="http://www.chinacpbd.org" target="_blank"><span>官方查询网址：www.chinacpbd.org</span></a></li>											     
+						</ul>              
                     </div>
                     <div class="col-xs-4 col-md-4">
                         <div class="about">
@@ -83,13 +81,69 @@
 					           <embed align="middle" src="../../css/yena.swf" width="400" height="300" type="application/x-shockwave-flash" wmode="opaque" flashvars="isAutoPlay=true" allowscriptaccess="sameDomain" quality="high">				          
 				            </div>
 				            <div class="about-con">
-				               	也娜环保科技有限公司坐落于东莞市莞城区罗沙装饰城，是东莞市政治、经济、文化的中心，东引运河流经市区，交通四通八达，是广州与香港之间水陆交通的必经之路。商贾云集、人气旺盛、餐饮兴隆、市场繁荣。
+				               	也娜瓷缝剂是国内最早从事瓷砖美缝品牌之一，是湖南龙锦建材商贸有限公司旗下品牌。湖南龙锦建材商贸有限公司集生产、销售、施工于一体的技术型公司、致力于专业开发高性能、高品质的美缝产品，公司在产品原材料上90％来自于美国、台湾德国、日本等国的进口，生产出具有国际品质的美缝产品。
 				            </div>
 				        </div>
                     </div>                  
                 </div>
             </div>
         </div>
+
+
+		<div class="section section-product">
+		 	<div class="channel-title"><span>产品展示</span><a href="#">更多</a></div>
+            <div class="container-fluid">
+                <div class="row">
+                	<div class="col-xs-3 col-md-3">                                                                    
+                        <div class="thumbnail">
+	                       <div class="caption">
+					          <h5>也娜单管瓷缝剂</h5>
+					          <p>最流行、最常用的产品包装形式，最新的不流、不塌陷的双组份膏体瓷缝剂，适用地面、墙面的美缝施工.瓷缝剂硬度高、粘性强；光滑如瓷、不沾灰尘、防水性强；色彩多样，装饰性好...</p>					         					         
+        					</div>
+        					<p>
+        						<img alt="" src="../../css/img/product-1.png" width="300"height="400" >
+        					</p>
+        					
+        				</div>
+        				<div class="thumb-intro">也娜单管瓷缝剂</div>
+                    </div>
+                    <div class="col-xs-3 col-md-3">
+		                    <div class="thumbnail">
+			                       <div class="caption">
+							          <h5>也娜双管瓷缝剂</h5>
+							          <p>最流行、最常用的产品包装形式，最新的不流、不塌陷的双组份膏体瓷缝剂，适用地面、墙面的美缝施工.瓷缝剂硬度高、粘性强；光滑如瓷、不沾灰尘、防水性强；色彩多样，装饰性好...</p>							       				         
+		        					</div>
+		        					<img alt="" src="../../css/img/product-2.jpg" width="300" height="300">
+	        				</div>
+	        				<div class="thumb-intro">也娜双管瓷缝剂</div>    	        				                	
+                    </div>
+                    <div class="col-xs-3 col-md-3">
+                    	<div class="thumbnail">
+	                       <div class="caption">
+					          <h5>也娜原装瓷缝剂</h5>
+					          <p>最流行、最常用的产品包装形式，最新的不流、不塌陷的双组份膏体瓷缝剂，适用地面、墙面的美缝施工.瓷缝剂硬度高、粘性强；光滑如瓷、不沾灰尘、防水性强；色彩多样，装饰性好...</p>					         				          
+        					</div>
+        					<img alt="" src="../../css/img/product-3.jpg" width="300" height="300">
+        				</div>  
+        				<div class="thumb-intro">也娜原装瓷缝剂</div>                           
+                    </div>  
+                    <div class="col-xs-3 col-md-3">                                                                    
+                        <div class="thumbnail">
+	                       <div class="caption">
+					          <h5>也娜美缝剂</h5>
+					         <p>最流行、最常用的产品包装形式，最新的不流、不塌陷的双组份膏体瓷缝剂，适用地面、墙面的美缝施工.瓷缝剂硬度高、粘性强；光滑如瓷、不沾灰尘、防水性强；色彩多样，装饰性好...</p>					         				         
+        					</div>
+        					<p>
+        						<img alt="" src="../../css/img/product-6.jpg" width="300"height="400" >
+        					</p>
+        					
+        				</div>
+        				<div class="thumb-intro">美缝剂</div>
+                    </div>                
+                </div>
+            </div>
+        </div>
+
 
 		<div class="section section-anlie">
 		  	<div class="channel-title"><span>销售区域</span><a href="#">更多</a></div>
@@ -102,58 +156,6 @@
             </div>
         </div>
 
-		<div class="section section-product">
-		 	<div class="channel-title"><span>产品展示</span><a href="#">更多</a></div>
-            <div class="container-fluid">
-                <div class="row">
-                	<div class="col-xs-4 col-md-4">                                                                    
-                        <div class="thumbnail">
-	                       <div class="caption">
-					          <h5>图片标题</h5>
-					          <p>图片相关描述</p>
-					          <p>
-					               <a href="" class="label label-primary biglabel" rel="tooltip" title="点击欣赏原图">欣赏</a>
-					               <a href="" class="label label-info biglabel" rel="tooltip" title="立刻下载原图">下载</a>
-					          </p>					          
-        					</div>
-        					<p>
-        						<img alt="" src="../../css/img/product-1.png" width="300"height="400" >
-        					</p>
-        					
-        				</div>
-        				<div class="thumb-intro">吹风机奥斯卡里的</div>
-                    </div>
-                    <div class="col-xs-4 col-md-4">
-		                    <div class="thumbnail">
-			                       <div class="caption">
-							          <h5>图片标题</h5>
-							          <p>图片相关描述</p>
-							          <p>
-							               <a href="" class="label label-primary biglabel" rel="tooltip" title="点击欣赏原图">欣赏</a>
-							               <a href="" class="label label-info biglabel" rel="tooltip" title="立刻下载原图">下载</a>
-							          </p>					          
-		        					</div>
-		        					<img alt="" src="../../css/img/product-2.png" width="300" height="300">
-	        				</div>
-	        				<div class="thumb-intro">吹风机奥斯卡里的</div>    	        				                	
-                    </div>
-                    <div class="col-xs-4 col-md-4">
-                    	<div class="thumbnail">
-	                       <div class="caption">
-					          <h5>图片标题</h5>
-					          <p>图片相关描述</p>
-					          <p>
-					               <a href="" class="label label-primary biglabel" rel="tooltip" title="点击欣赏原图">欣赏</a>
-					               <a href="" class="label label-info biglabel" rel="tooltip" title="立刻下载原图">下载</a>
-					          </p>					          
-        					</div>
-        					<img alt="" src="../../css/img/product-3.png" width="300" height="300">
-        				</div>  
-        				<div class="thumb-intro">吹风机奥斯卡里的</div>                           
-                    </div>                  
-                </div>
-            </div>
-        </div>
         
 		 <div class="section section-product">
 		        <div class="channel-title"><span>案列展示</span><a href="#">更多</a></div>
@@ -162,27 +164,27 @@
 		                <tr>
 		
 		                    <td>
-		                        <div class="pro-pic"><a href="#"><img src="../../css/img/anlie-1.png" width="235" height="185" /></a><span>明星产品</span></div>
+		                        <div class="pro-pic"><a href="#"><img src="../../css/img/anlie-1.png" width="235" height="185" /></a><span>家装-倒角砖美缝</span></div>
 		                    </td>
 		
 		                    <td>
-		                        <div class="pro-pic"><a href="#"><img src="../../css/img/anlie-2.png" width="235" height="185" /></a><span>店长推荐</span></div>
+		                        <div class="pro-pic"><a href="#"><img src="../../css/img/anlie-2.png" width="235" height="185" /></a><span>家装-倒角砖美缝</span></div>
 		                    </td>
 		
 		                    <td>
-		                        <div class="pro-pic"><a href="#"><img src="../../css/img/anlie-3.png" width="235" height="185" /></a><span>环保硬质发泡型材、发泡板材、发泡片材稳定剂</span></div>
+		                        <div class="pro-pic"><a href="#"><img src="../../css/img/anlie-3.png" width="235" height="185" /></a><span>家装-防霉封边</span></div>
 		                    </td>
 		
 		                    <td>
-		                        <div class="pro-pic"><a href="#"><img src="../../css/img/anlie-4.png" width="235" height="185" /></a><span>环保硬质发泡型材、发泡板材、发泡片材稳定剂</span></div>
+		                        <div class="pro-pic"><a href="#"><img src="../../css/img/anlie-4.png" width="235" height="185" /></a><span>家装-防霉封边</span></div>
 		                    </td>
 		
 		                    <td>
-		                        <div class="pro-pic"><a href="#"><img src="../../css/img/anlie-5.png" width="235" height="185" /></a><span>环保硬质发泡型材、发泡板材、发泡片材稳定剂</span></div>
+		                        <div class="pro-pic"><a href="#"><img src="../../css/img/anlie-5.png" width="235" height="185" /></a><span>家装-防霉封边</span></div>
 		                    </td>
 		
 		                    <td>
-		                        <div class="pro-pic"><a href="#"><img src="../../css/img/anlie-6.png" width="235" height="185" /></a><span>环保硬质发泡型材、发泡板材、发泡片材稳定剂</span></div>
+		                        <div class="pro-pic"><a href="#"><img src="../../css/img/anlie-6.png" width="235" height="185" /></a><span>家装-仿古砖美缝</span></div>
 		                    </td>
 		
 		                </tr>
@@ -191,27 +193,27 @@
 		                <tr>
 		
 		                    <td>
-		                        <div class="pro-pic"><a href="#"><img src="../../css/img/anlie-7.png" width="235" height="185" /></a><span>环保硬质发泡型材、发泡板材、发泡片材稳定剂</span></div>
+		                        <div class="pro-pic"><a href="#"><img src="../../css/img/anlie-7.png" width="235" height="185" /></a><span>家装-仿古砖美缝</span></div>
 		                    </td>
 		
 		                    <td>
-		                        <div class="pro-pic"><a href="#"><img src="../../css/img/anlie-8.png" width="235" height="185" /></a><span>环保硬质注塑管件稳定剂</span></div>
+		                        <div class="pro-pic"><a href="#"><img src="../../css/img/anlie-8.png" width="235" height="185" /></a><span>工装-贵州贵阳千百炼装饰集团</span></div>
 		                    </td>
 		
 		                    <td>
-		                        <div class="pro-pic"><a href="#"><img src="../../css/img/anlie-9.png" width="235" height="185" /></a><span>环保深色及黑色电线电缆料稳定剂</span></div>
+		                        <div class="pro-pic"><a href="#"><img src="../../css/img/anlie-9.png" width="235" height="185" /></a><span>家装-釉面砖</span></div>
 		                    </td>
 		
 		                    <td>
-		                        <div class="pro-pic"><a href="#"><img src="../../css/img/anlie-10.png" width="235" height="185" /></a><span>环保白色及浅色电线电缆料稳定剂</span></div>
+		                        <div class="pro-pic"><a href="#"><img src="../../css/img/anlie-10.png" width="235" height="185" /></a><span>家装-釉面砖</span></div>
 		                    </td>
 		
 		                    <td>
-		                        <div class="pro-pic"><a href="#"><img src="../../css/img/anlie-11.png" width="235" height="185" /></a><span>环保硬质门窗型材稳定剂</span></div>
+		                        <div class="pro-pic"><a href="#"><img src="../../css/img/anlie-11.png" width="235" height="185" /></a><span>家装-釉面砖</span></div>
 		                    </td>
 		
 		                    <td>
-		                        <div class="pro-pic"><a href="#"><img src="../../css/img/anlie-12.png" width="235" height="185" /></a><span>环保硬质管材、板材、异型材稳定剂</span></div>
+		                        <div class="pro-pic"><a href="#"><img src="../../css/img/anlie-12.png" width="235" height="185" /></a><span>工装-贵州贵阳老阳关交通学院</span></div>
 		                    </td>
 		
 		                </tr>
